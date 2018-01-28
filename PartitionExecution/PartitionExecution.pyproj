@@ -37,13 +37,7 @@
     <Compile Include="partition_execution\models\masks.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="partition_execution\models\network_definitions.py">
-      <SubType>Code</SubType>
-    </Compile>
     <Compile Include="partition_execution\models\__init__.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="partition_execution\partition.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="PartitionExecution.py" />

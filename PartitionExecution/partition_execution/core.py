@@ -23,7 +23,7 @@ def print_progress_bar(iteration, total, prefix = '', suffix = '', decimals = 1,
     if iteration == total: 
         print('')
 
-def train_train_network(session, train_ops, train_dict, train_op_epochs=500, test_dict=None, print_accuracy=False, accuracy_ops=None, log_dir=None):
+def train_network(session, train_ops, train_dict, train_op_epochs=500, test_dict=None, print_accuracy=False, accuracy_ops=None, log_dir=None):
     save_logs = log_dir != None
     logger = logging.getLogger('partition')
     variable_values = dict()

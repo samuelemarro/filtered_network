@@ -11,12 +11,10 @@ import logging
 
 import tensorflow as tf
 
-import partition_execution.partition as partition
 import partition_execution.core as core
 import partition_execution.testing as testing
 
 import partition_execution.models.data as data
-import partition_execution.models.network_definitions as networks
 import partition_execution.models.masks as masks
 from partition_execution.partition_layer import PartitionHelper
 from tensorflow.python import debug as tf_debug
@@ -447,33 +445,6 @@ def data_preprocessing(data, batch_size, train_session, inference_session):
 
     return train_input, train_expected_output, inference_input, inference_expected_output, train_data_size, inference_data_size
 
-def new_run_base(test_count, train_ops, final_output, train_variables, inference_variables, train_dict, inference_dict, train_session, inference_session, train_op_epochs=500):
-    core.train_train_network(train_session, train_ops, train_dict, train_op_epochs)
-
-    variable_dict = core.compute_variable_dict(train_session, train_variables)
-    core.prepare_inference_network(inference_session, inference_variables, variable_dict)
-
-    logger.info('Preheating...')
-    testing.preheat_network(inference_session, final_output, None, test_count)
-    base_outputs, execution_time = testing.test_network(inference_session, final_output, None, test_count)
-
-    base_outputs = np.array(unpack(base_outputs))
-
-    top1_matches = compute_matches(base_outputs, data.test_labels, top_k=1)
-    top5_matches = compute_matches(base_outputs, data.test_labels, top_k=5)
-
-    top1_accuracy = np.mean(top1_matches.astype(float))
-    top5_accuracy = np.mean(top5_matches.astype(float))
-
-    name = 'Optimised' if use_cutoff else 'Base'
-
-
-    print('{} Top 1 Accuracy: {:2.2f}%'.format(name, top1_accuracy * 100.0))
-    print('{} Top 5 Accuracy: {:2.2f}%'.format(name, top5_accuracy * 100.0))
-    print('{} Time: {} seconds'.format(name, execution_time))
-
-    return top1_accuracy, execution_time
-
 def complete(use_cutoff, data, batch_size, network_maker, train_op_epochs=500):
     logger = logging.getLogger('testing')
 
@@ -497,7 +468,7 @@ def complete(use_cutoff, data, batch_size, network_maker, train_op_epochs=500):
     for i in range(len(train_ops)):
         logger.info('{}: {}'.format(i + 1, train_ops[i]))
     logger.info('===============')
-    core.train_train_network(train_session, train_ops, train_dict, train_op_epochs)
+    core.train_network(train_session, train_ops, train_dict, train_op_epochs)
 
     #a = train_session.run(train_accuracy)
     #print(a)
@@ -548,102 +519,6 @@ def complete(use_cutoff, data, batch_size, network_maker, train_op_epochs=500):
     print('{} Time: {} seconds'.format(name, execution_time))
 
     return top1_accuracy, execution_time
-
-def run_base(use_cutoff, data, batch_size, custom_layers, output_positions, preprocessing=None, mask_maker=None, mask_parameters=None, hidden_units=100, keep_prob_value=0.9, train_epochs=500):
-    logger = logging.getLogger('testing')
-
-    def make_base_network(training, session, iterator, keep_prob=None):
-        iterator_input, iterator_expected_output = iterator.get_next()
-
-        iterator_input.set_shape([batch_size, data.input_shape[1]])
-        iterator_expected_output.set_shape([batch_size, data.output_shape[1]])
-
-        if preprocessing != None:
-            iterator_input, iterator_expected_output = preprocessing(iterator_input, iterator_expected_output, use_cutoff, training)
-
-
-        optimizer = tf.train.AdamOptimizer()
-
-        network_definition = networks.CustomFeedForwardNetwork(hidden_units, custom_layers, mask_maker=mask_maker, optimizer=optimizer, keep_prob=keep_prob)
-
-        print(network_definition.mask_maker)
-
-        mp = tf.constant(mask_parameters) if (use_cutoff and not training) else None
-        base_network = partition.PartitionNetwork(session, network_definition, use_cutoff and not training, training, output_positions, iterator_input, iterator_expected_output, mask_parameters=mp)
-
-        return base_network
-
-    train_data_size = data.train_size
-    train_data_size = data.train_size - (data.train_size % batch_size)
-
-    test_data_size = data.test_size
-    test_data_size = data.test_size - (data.test_size % batch_size)
-
-    logger.info('Batch Size: {}'.format(batch_size))
-    logger.info('Train Data Size: {}'.format(train_data_size))
-    logger.info('Test Data Size: {}'.format(test_data_size))
-
-    train_graph = tf.Graph()
-    train_session = tf.Session(graph=train_graph)
-
-    with train_session.as_default():
-        with train_graph.as_default():
-            train_iterator = data.train_dataset.take(train_data_size).shuffle(buffer_size=train_data_size).batch(batch_size).repeat().make_one_shot_iterator()
-            
-            keep_prob = tf.placeholder(tf.float32, name='dropout_keep_probability')
-            train_network = make_base_network(True, train_session, train_iterator, keep_prob=keep_prob)
-            
-
-    core.train_train_network(train_session, train_network.train_ops, {keep_prob : keep_prob_value}, train_op_epochs=train_epochs)
-
-    inference_graph = tf.Graph()
-    inference_session = tf.Session(graph=inference_graph)
-
-    with inference_session.as_default():
-        with inference_graph.as_default():
-            inference_iterator = data.test_dataset.take(test_data_size).batch(batch_size).repeat().make_one_shot_iterator()
-            inference_network = make_base_network(False, inference_session, inference_iterator)
-
-    train_variables = train_network.train_variables
-        
-    inference_variables = inference_network.train_variables
-
-    variable_dict = core.compute_variable_dict(train_session, train_variables)
-    core.prepare_inference_network(inference_session, inference_variables, variable_dict)
-
-    logger.info('Preheating...')
-    testing.preheat_network(inference_session, inference_network.final_output, None, test_data_size // batch_size)
-    base_outputs, execution_time = testing.test_network(inference_session, inference_network.final_output, None, test_data_size // batch_size)
-
-    base_outputs = np.array(unpack(base_outputs))
-
-    top1_matches = compute_matches(base_outputs, data.test_labels, top_k=1)
-    top5_matches = compute_matches(base_outputs, data.test_labels, top_k=5)
-
-    top1_accuracy = np.mean(top1_matches.astype(float))
-    top5_accuracy = np.mean(top5_matches.astype(float))
-
-    name = 'Optimised' if use_cutoff else 'Base'
-
-    #train_writer = tf.summary.FileWriter(FLAGS.log_dir + '/' + name +
-    #'/train', train_graph)
-    #train_writer.flush()
-    #train_writer.close()
-    #inference_writer = tf.summary.FileWriter(FLAGS.log_dir + '/' + name +
-    #'/inference', inference_graph)
-    #inference_writer.flush()
-    #inference_writer.close()
-    #tf.train.write_graph(train_graph, FLAGS.log_dir + '/' + name + '/train',
-    #'graph.pbtxt')
-    #tf.train.write_graph(inference_graph, FLAGS.log_dir + '/' + name +
-    #'/inference', 'graph.pbtxt')
-
-    print('{} Top 1 Accuracy: {:2.2f}%'.format(name, top1_accuracy * 100.0))
-    print('{} Top 5 Accuracy: {:2.2f}%'.format(name, top5_accuracy * 100.0))
-    print('{} Time: {} seconds'.format(name, execution_time))
-
-    return top1_accuracy, execution_time
-
 
 def confidency_graph(output, expected_output, buckets=10):
     top1_matches = compute_matches(output, expected_output, top_k=1)
