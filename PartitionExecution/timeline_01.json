@@ -1,0 +1,6862 @@
+{
+    "traceEvents": [
+        {
+            "name": "process_name",
+            "ph": "M",
+            "pid": 0,
+            "args": {
+                "name": "Allocators"
+            }
+        },
+        {
+            "name": "process_name",
+            "ph": "M",
+            "pid": 1,
+            "args": {
+                "name": "/job:localhost/replica:0/task:0/device:CPU:0 Compute"
+            }
+        },
+        {
+            "name": "process_name",
+            "ph": "M",
+            "pid": 2,
+            "args": {
+                "name": "/job:localhost/replica:0/task:0/device:CPU:0 Tensors"
+            }
+        },
+        {
+            "name": "process_name",
+            "ph": "M",
+            "pid": 3,
+            "args": {
+                "name": "/job:localhost/replica:0/task:0/device:GPU:0 Compute"
+            }
+        },
+        {
+            "name": "process_name",
+            "ph": "M",
+            "pid": 4,
+            "args": {
+                "name": "/job:localhost/replica:0/task:0/device:GPU:0 Tensors"
+            }
+        },
+        {
+            "name": "process_name",
+            "ph": "M",
+            "pid": 5,
+            "args": {
+                "name": "/device:GPU:0/stream:all Compute"
+            }
+        },
+        {
+            "name": "process_name",
+            "ph": "M",
+            "pid": 6,
+            "args": {
+                "name": "/device:GPU:0/stream:all Tensors"
+            }
+        },
+        {
+            "name": "process_name",
+            "ph": "M",
+            "pid": 7,
+            "args": {
+                "name": "/device:GPU:0/stream:12 Compute"
+            }
+        },
+        {
+            "name": "process_name",
+            "ph": "M",
+            "pid": 8,
+            "args": {
+                "name": "/device:GPU:0/stream:12 Tensors"
+            }
+        },
+        {
+            "name": "process_name",
+            "ph": "M",
+            "pid": 9,
+            "args": {
+                "name": "/device:GPU:0/memcpy Compute"
+            }
+        },
+        {
+            "name": "process_name",
+            "ph": "M",
+            "pid": 10,
+            "args": {
+                "name": "/device:GPU:0/memcpy Tensors"
+            }
+        },
+        {
+            "name": "process_name",
+            "ph": "M",
+            "pid": 11,
+            "args": {
+                "name": "/device:GPU:0/stream:13 Compute"
+            }
+        },
+        {
+            "name": "process_name",
+            "ph": "M",
+            "pid": 12,
+            "args": {
+                "name": "/device:GPU:0/stream:13 Tensors"
+            }
+        },
+        {
+            "name": "process_name",
+            "ph": "M",
+            "pid": 13,
+            "args": {
+                "name": "/device:GPU:0/stream:14 Compute"
+            }
+        },
+        {
+            "name": "process_name",
+            "ph": "M",
+            "pid": 14,
+            "args": {
+                "name": "/device:GPU:0/stream:14 Tensors"
+            }
+        },
+        {
+            "name": "process_name",
+            "ph": "M",
+            "pid": 15,
+            "args": {
+                "name": "Allocators"
+            }
+        },
+        {
+            "name": "process_name",
+            "ph": "M",
+            "pid": 16,
+            "args": {
+                "name": "/job:localhost/replica:0/task:0/device:CPU:0 Compute"
+            }
+        },
+        {
+            "name": "process_name",
+            "ph": "M",
+            "pid": 17,
+            "args": {
+                "name": "/job:localhost/replica:0/task:0/device:CPU:0 Tensors"
+            }
+        },
+        {
+            "name": "process_name",
+            "ph": "M",
+            "pid": 18,
+            "args": {
+                "name": "/job:localhost/replica:0/task:0/device:GPU:0 Compute"
+            }
+        },
+        {
+            "name": "process_name",
+            "ph": "M",
+            "pid": 19,
+            "args": {
+                "name": "/job:localhost/replica:0/task:0/device:GPU:0 Tensors"
+            }
+        },
+        {
+            "name": "process_name",
+            "ph": "M",
+            "pid": 20,
+            "args": {
+                "name": "/device:GPU:0/stream:all Compute"
+            }
+        },
+        {
+            "name": "process_name",
+            "ph": "M",
+            "pid": 21,
+            "args": {
+                "name": "/device:GPU:0/stream:all Tensors"
+            }
+        },
+        {
+            "name": "process_name",
+            "ph": "M",
+            "pid": 22,
+            "args": {
+                "name": "/device:GPU:0/stream:12 Compute"
+            }
+        },
+        {
+            "name": "process_name",
+            "ph": "M",
+            "pid": 23,
+            "args": {
+                "name": "/device:GPU:0/stream:12 Tensors"
+            }
+        },
+        {
+            "name": "process_name",
+            "ph": "M",
+            "pid": 24,
+            "args": {
+                "name": "/device:GPU:0/memcpy Compute"
+            }
+        },
+        {
+            "name": "process_name",
+            "ph": "M",
+            "pid": 25,
+            "args": {
+                "name": "/device:GPU:0/memcpy Tensors"
+            }
+        },
+        {
+            "name": "process_name",
+            "ph": "M",
+            "pid": 26,
+            "args": {
+                "name": "/device:GPU:0/stream:13 Compute"
+            }
+        },
+        {
+            "name": "process_name",
+            "ph": "M",
+            "pid": 27,
+            "args": {
+                "name": "/device:GPU:0/stream:13 Tensors"
+            }
+        },
+        {
+            "name": "process_name",
+            "ph": "M",
+            "pid": 28,
+            "args": {
+                "name": "/device:GPU:0/stream:14 Compute"
+            }
+        },
+        {
+            "name": "process_name",
+            "ph": "M",
+            "pid": 29,
+            "args": {
+                "name": "/device:GPU:0/stream:14 Tensors"
+            }
+        },
+        {
+            "ph": "N",
+            "cat": "Tensor",
+            "name": "_arg_dropout_keep_bla_0_0",
+            "pid": 2,
+            "tid": 0,
+            "ts": 1516213472645000,
+            "id": 0
+        },
+        {
+            "ph": "O",
+            "cat": "Tensor",
+            "name": "_arg_dropout_keep_bla_0_0",
+            "pid": 2,
+            "tid": 0,
+            "ts": 1516213472645013,
+            "id": 0,
+            "args": {
+                "snapshot": {
+                    "tensor_description": "dtype: DT_FLOAT\nshape {\n}\nallocation_description {\n  requested_bytes: 4\n  allocator_name: cpu\n}\n"
+                }
+            }
+        },
+        {
+            "ph": "N",
+            "cat": "Tensor",
+            "name": "OneShotIterator",
+            "pid": 2,
+            "tid": 0,
+            "ts": 1516213472645046,
+            "id": 1
+        },
+        {
+            "ph": "O",
+            "cat": "Tensor",
+            "name": "OneShotIterator",
+            "pid": 2,
+            "tid": 0,
+            "ts": 1516213472645070,
+            "id": 1,
+            "args": {
+                "snapshot": {
+                    "tensor_description": "dtype: DT_RESOURCE\nshape {\n}\nallocation_description {\n  requested_bytes: 136\n  allocated_bytes: 136\n  allocator_name: cpu\n  allocation_id: 1\n  has_single_reference: true\n  ptr: 763087914752\n}\n"
+                }
+            }
+        },
+        {
+            "ph": "N",
+            "cat": "Tensor",
+            "name": "OneShotIterator_1",
+            "pid": 2,
+            "tid": 1,
+            "ts": 1516213472644882,
+            "id": 2
+        },
+        {
+            "ph": "O",
+            "cat": "Tensor",
+            "name": "OneShotIterator_1",
+            "pid": 2,
+            "tid": 1,
+            "ts": 1516213472645117,
+            "id": 2,
+            "args": {
+                "snapshot": {
+                    "tensor_description": "dtype: DT_RESOURCE\nshape {\n}\nallocation_description {\n  requested_bytes: 136\n  allocated_bytes: 136\n  allocator_name: cpu\n  allocation_id: 1\n  has_single_reference: true\n  ptr: 763087905920\n}\n"
+                }
+            }
+        },
+        {
+            "ph": "N",
+            "cat": "Tensor",
+            "name": "cond/IteratorToStringHandle/Switch",
+            "pid": 2,
+            "tid": 0,
+            "ts": 1516213472645732,
+            "id": 3
+        },
+        {
+            "ph": "O",
+            "cat": "Tensor",
+            "name": "cond/IteratorToStringHandle/Switch",
+            "pid": 2,
+            "tid": 0,
+            "ts": 1516213472645741,
+            "id": 3,
+            "args": {
+                "snapshot": {
+                    "tensor_description": "dtype: DT_RESOURCE\nshape {\n}\nallocation_description {\n  requested_bytes: 136\n  allocated_bytes: 136\n  allocator_name: cpu\n  allocation_id: 1\n  ptr: 763087905920\n}\n"
+                }
+            }
+        },
+        {
+            "ph": "N",
+            "cat": "Tensor",
+            "name": "cond/IteratorToStringHandle",
+            "pid": 2,
+            "tid": 0,
+            "ts": 1516213472645747,
+            "id": 4
+        },
+        {
+            "ph": "O",
+            "cat": "Tensor",
+            "name": "cond/IteratorToStringHandle",
+            "pid": 2,
+            "tid": 0,
+            "ts": 1516213472645781,
+            "id": 4,
+            "args": {
+                "snapshot": {
+                    "tensor_description": "dtype: DT_STRING\nshape {\n}\nallocation_description {\n  requested_bytes: 32\n  allocated_bytes: 256\n  allocator_name: cuda_host_bfc\n  allocation_id: 1444\n  has_single_reference: true\n  ptr: 8636075008\n}\n"
+                }
+            }
+        },
+        {
+            "ph": "N",
+            "cat": "Tensor",
+            "name": "cond/IteratorToStringHandle_1/Switch",
+            "pid": 2,
+            "tid": 0,
+            "ts": 1516213472645791,
+            "id": 5
+        },
+        {
+            "ph": "O",
+            "cat": "Tensor",
+            "name": "cond/IteratorToStringHandle_1/Switch",
+            "pid": 2,
+            "tid": 0,
+            "ts": 1516213472645807,
+            "id": 5,
+            "args": {
+                "snapshot": {
+                    "tensor_description": "dtype: DT_RESOURCE\nshape {\n}\nallocation_description {\n  requested_bytes: 136\n  allocated_bytes: 136\n  allocator_name: cpu\n  allocation_id: 1\n  ptr: 763087914752\n}\n"
+                }
+            }
+        },
+        {
+            "ph": "N",
+            "cat": "Tensor",
+            "name": "IteratorFromStringHandle",
+            "pid": 2,
+            "tid": 0,
+            "ts": 1516213472645851,
+            "id": 6
+        },
+        {
+            "ph": "O",
+            "cat": "Tensor",
+            "name": "IteratorFromStringHandle",
+            "pid": 2,
+            "tid": 0,
+            "ts": 1516213472645873,
+            "id": 6,
+            "args": {
+                "snapshot": {
+                    "tensor_description": "dtype: DT_RESOURCE\nshape {\n}\nallocation_description {\n  requested_bytes: 136\n  allocated_bytes: 136\n  allocator_name: cpu\n  allocation_id: 1\n  has_single_reference: true\n  ptr: 763087918784\n}\n"
+                }
+            }
+        },
+        {
+            "ph": "N",
+            "cat": "Tensor",
+            "name": "IteratorGetNext",
+            "pid": 2,
+            "tid": 0,
+            "ts": 1516213472645876,
+            "id": 7
+        },
+        {
+            "ph": "O",
+            "cat": "Tensor",
+            "name": "IteratorGetNext",
+            "pid": 2,
+            "tid": 0,
+            "ts": 1516213472647639,
+            "id": 7,
+            "args": {
+                "snapshot": {
+                    "tensor_description": "dtype: DT_FLOAT\nshape {\n  dim {\n    size: 200\n  }\n  dim {\n    size: 784\n  }\n}\nallocation_description {\n  requested_bytes: 627200\n  allocator_name: cpu\n  ptr: 766092951584\n}\n"
+                }
+            }
+        },
+        {
+            "ph": "N",
+            "cat": "Tensor",
+            "name": "IteratorGetNext:1",
+            "pid": 2,
+            "tid": 0,
+            "ts": 1516213472645876,
+            "id": 8
+        },
+        {
+            "ph": "O",
+            "cat": "Tensor",
+            "name": "IteratorGetNext:1",
+            "pid": 2,
+            "tid": 0,
+            "ts": 1516213472647639,
+            "id": 8,
+            "args": {
+                "snapshot": {
+                    "tensor_description": "dtype: DT_DOUBLE\nshape {\n  dim {\n    size: 200\n  }\n  dim {\n    size: 10\n  }\n}\nallocation_description {\n  requested_bytes: 16000\n  allocator_name: cpu\n  ptr: 764930687072\n}\n"
+                }
+            }
+        },
+        {
+            "ph": "N",
+            "cat": "Tensor",
+            "name": "partitions/partition_0/hidden/hidden_0/dense/kernel",
+            "pid": 4,
+            "tid": 0,
+            "ts": 1516213472644885,
+            "id": 9
+        },
+        {
+            "ph": "O",
+            "cat": "Tensor",
+            "name": "partitions/partition_0/hidden/hidden_0/dense/kernel",
+            "pid": 4,
+            "tid": 0,
+            "ts": 1516213472645005,
+            "id": 9,
+            "args": {
+                "snapshot": {
+                    "tensor_description": "dtype: DT_FLOAT\nshape {\n  dim {\n    size: 784\n  }\n  dim {\n    size: 100\n  }\n}\nallocation_description {\n  requested_bytes: 313600\n  allocated_bytes: 313600\n  allocator_name: GPU_0_bfc\n  allocation_id: 45\n  has_single_reference: true\n  ptr: 21491906560\n}\n"
+                }
+            }
+        },
+        {
+            "ph": "N",
+            "cat": "Tensor",
+            "name": "partitions/partition_0/hidden/hidden_0/dense/bias",
+            "pid": 4,
+            "tid": 0,
+            "ts": 1516213472645011,
+            "id": 10
+        },
+        {
+            "ph": "O",
+            "cat": "Tensor",
+            "name": "partitions/partition_0/hidden/hidden_0/dense/bias",
+            "pid": 4,
+            "tid": 0,
+            "ts": 1516213472645028,
+            "id": 10,
+            "args": {
+                "snapshot": {
+                    "tensor_description": "dtype: DT_FLOAT\nshape {\n  dim {\n    size: 100\n  }\n}\nallocation_description {\n  requested_bytes: 400\n  allocated_bytes: 512\n  allocator_name: GPU_0_bfc\n  allocation_id: 20\n  has_single_reference: true\n  ptr: 21491020032\n}\n"
+                }
+            }
+        },
+        {
+            "ph": "N",
+            "cat": "Tensor",
+            "name": "partitions/partition_0/hidden/hidden_1/dense/kernel",
+            "pid": 4,
+            "tid": 0,
+            "ts": 1516213472645032,
+            "id": 11
+        },
+        {
+            "ph": "O",
+            "cat": "Tensor",
+            "name": "partitions/partition_0/hidden/hidden_1/dense/kernel",
+            "pid": 4,
+            "tid": 0,
+            "ts": 1516213472645042,
+            "id": 11,
+            "args": {
+                "snapshot": {
+                    "tensor_description": "dtype: DT_FLOAT\nshape {\n  dim {\n    size: 100\n  }\n  dim {\n    size: 100\n  }\n}\nallocation_description {\n  requested_bytes: 40000\n  allocated_bytes: 40192\n  allocator_name: GPU_0_bfc\n  allocation_id: 46\n  has_single_reference: true\n  ptr: 21490706432\n}\n"
+                }
+            }
+        },
+        {
+            "ph": "N",
+            "cat": "Tensor",
+            "name": "partitions/partition_0/hidden/hidden_1/dense/bias",
+            "pid": 4,
+            "tid": 0,
+            "ts": 1516213472645047,
+            "id": 12
+        },
+        {
+            "ph": "O",
+            "cat": "Tensor",
+            "name": "partitions/partition_0/hidden/hidden_1/dense/bias",
+            "pid": 4,
+            "tid": 0,
+            "ts": 1516213472645057,
+            "id": 12,
+            "args": {
+                "snapshot": {
+                    "tensor_description": "dtype: DT_FLOAT\nshape {\n  dim {\n    size: 100\n  }\n}\nallocation_description {\n  requested_bytes: 400\n  allocated_bytes: 512\n  allocator_name: GPU_0_bfc\n  allocation_id: 22\n  has_single_reference: true\n  ptr: 21491060736\n}\n"
+                }
+            }
+        },
+        {
+            "ph": "N",
+            "cat": "Tensor",
+            "name": "partitions/partition_0/hidden/hidden_2/dense/kernel",
+            "pid": 4,
+            "tid": 0,
+            "ts": 1516213472645062,
+            "id": 13
+        },
+        {
+            "ph": "O",
+            "cat": "Tensor",
+            "name": "partitions/partition_0/hidden/hidden_2/dense/kernel",
+            "pid": 4,
+            "tid": 0,
+            "ts": 1516213472645072,
+            "id": 13,
+            "args": {
+                "snapshot": {
+                    "tensor_description": "dtype: DT_FLOAT\nshape {\n  dim {\n    size: 100\n  }\n  dim {\n    size: 100\n  }\n}\nallocation_description {\n  requested_bytes: 40000\n  allocated_bytes: 40192\n  allocator_name: GPU_0_bfc\n  allocation_id: 47\n  has_single_reference: true\n  ptr: 21491020544\n}\n"
+                }
+            }
+        },
+        {
+            "ph": "N",
+            "cat": "Tensor",
+            "name": "partitions/partition_0/hidden/hidden_2/dense/bias",
+            "pid": 4,
+            "tid": 0,
+            "ts": 1516213472645082,
+            "id": 14
+        },
+        {
+            "ph": "O",
+            "cat": "Tensor",
+            "name": "partitions/partition_0/hidden/hidden_2/dense/bias",
+            "pid": 4,
+            "tid": 0,
+            "ts": 1516213472645090,
+            "id": 14,
+            "args": {
+                "snapshot": {
+                    "tensor_description": "dtype: DT_FLOAT\nshape {\n  dim {\n    size: 100\n  }\n}\nallocation_description {\n  requested_bytes: 400\n  allocated_bytes: 512\n  allocator_name: GPU_0_bfc\n  allocation_id: 24\n  has_single_reference: true\n  ptr: 21491101440\n}\n"
+                }
+            }
+        },
+        {
+            "ph": "N",
+            "cat": "Tensor",
+            "name": "partitions/partition_0/dropout/Shape",
+            "pid": 4,
+            "tid": 0,
+            "ts": 1516213472645094,
+            "id": 15
+        },
+        {
+            "ph": "O",
+            "cat": "Tensor",
+            "name": "partitions/partition_0/dropout/Shape",
+            "pid": 4,
+            "tid": 0,
+            "ts": 1516213472645101,
+            "id": 15,
+            "args": {
+                "snapshot": {
+                    "tensor_description": "dtype: DT_INT32\nshape {\n  dim {\n    size: 2\n  }\n}\nallocation_description {\n  requested_bytes: 8\n  allocated_bytes: 256\n  allocator_name: cuda_host_bfc\n  allocation_id: 1437\n  ptr: 8636073984\n}\n"
+                }
+            }
+        },
+        {
+            "ph": "N",
+            "cat": "Tensor",
+            "name": "partitions/partition_0/dropout/random_uniform/sub",
+            "pid": 4,
+            "tid": 0,
+            "ts": 1516213472645104,
+            "id": 16
+        },
+        {
+            "ph": "O",
+            "cat": "Tensor",
+            "name": "partitions/partition_0/dropout/random_uniform/sub",
+            "pid": 4,
+            "tid": 0,
+            "ts": 1516213472645107,
+            "id": 16,
+            "args": {
+                "snapshot": {
+                    "tensor_description": "dtype: DT_FLOAT\nshape {\n}\nallocation_description {\n  requested_bytes: 4\n  allocated_bytes: 256\n  allocator_name: GPU_0_bfc\n  allocation_id: 14660\n  ptr: 21491105536\n}\n"
+                }
+            }
+        },
+        {
+            "ph": "N",
+            "cat": "Tensor",
+            "name": "partitions/partition_0/dropout/random_uniform/min",
+            "pid": 4,
+            "tid": 0,
+            "ts": 1516213472645111,
+            "id": 17
+        },
+        {
+            "ph": "O",
+            "cat": "Tensor",
+            "name": "partitions/partition_0/dropout/random_uniform/min",
+            "pid": 4,
+            "tid": 0,
+            "ts": 1516213472645119,
+            "id": 17,
+            "args": {
+                "snapshot": {
+                    "tensor_description": "dtype: DT_FLOAT\nshape {\n}\nallocation_description {\n  requested_bytes: 4\n  allocated_bytes: 256\n  allocator_name: GPU_0_bfc\n  allocation_id: 14661\n  ptr: 21491105792\n}\n"
+                }
+            }
+        },
+        {
+            "ph": "N",
+            "cat": "Tensor",
+            "name": "partitions/partition_0/output_0/dense/kernel",
+            "pid": 4,
+            "tid": 0,
+            "ts": 1516213472645123,
+            "id": 18
+        },
+        {
+            "ph": "O",
+            "cat": "Tensor",
+            "name": "partitions/partition_0/output_0/dense/kernel",
+            "pid": 4,
+            "tid": 0,
+            "ts": 1516213472645129,
+            "id": 18,
+            "args": {
+                "snapshot": {
+                    "tensor_description": "dtype: DT_FLOAT\nshape {\n  dim {\n    size: 100\n  }\n  dim {\n    size: 10\n  }\n}\nallocation_description {\n  requested_bytes: 4000\n  allocated_bytes: 4096\n  allocator_name: GPU_0_bfc\n  allocation_id: 48\n  has_single_reference: true\n  ptr: 21491061248\n}\n"
+                }
+            }
+        },
+        {
+            "ph": "N",
+            "cat": "Tensor",
+            "name": "partitions/partition_0/output_0/dense/bias",
+            "pid": 4,
+            "tid": 0,
+            "ts": 1516213472645132,
+            "id": 19
+        },
+        {
+            "ph": "O",
+            "cat": "Tensor",
+            "name": "partitions/partition_0/output_0/dense/bias",
+            "pid": 4,
+            "tid": 0,
+            "ts": 1516213472645138,
+            "id": 19,
+            "args": {
+                "snapshot": {
+                    "tensor_description": "dtype: DT_FLOAT\nshape {\n  dim {\n    size: 10\n  }\n}\nallocation_description {\n  requested_bytes: 40\n  allocated_bytes: 256\n  allocator_name: GPU_0_bfc\n  allocation_id: 26\n  has_single_reference: true\n  ptr: 21491106048\n}\n"
+                }
+            }
+        },
+        {
+            "ph": "N",
+            "cat": "Tensor",
+            "name": "train_accuracy/correct_prediction/ArgMax/dimension",
+            "pid": 4,
+            "tid": 0,
+            "ts": 1516213472645140,
+            "id": 20
+        },
+        {
+            "ph": "O",
+            "cat": "Tensor",
+            "name": "train_accuracy/correct_prediction/ArgMax/dimension",
+            "pid": 4,
+            "tid": 0,
+            "ts": 1516213472645144,
+            "id": 20,
+            "args": {
+                "snapshot": {
+                    "tensor_description": "dtype: DT_INT32\nshape {\n}\nallocation_description {\n  requested_bytes: 4\n  allocated_bytes: 256\n  allocator_name: cuda_host_bfc\n  allocation_id: 1440\n  ptr: 8636074240\n}\n"
+                }
+            }
+        },
+        {
+            "ph": "N",
+            "cat": "Tensor",
+            "name": "Const",
+            "pid": 4,
+            "tid": 0,
+            "ts": 1516213472645146,
+            "id": 21
+        },
+        {
+            "ph": "O",
+            "cat": "Tensor",
+            "name": "Const",
+            "pid": 4,
+            "tid": 0,
+            "ts": 1516213472645149,
+            "id": 21,
+            "args": {
+                "snapshot": {
+                    "tensor_description": "dtype: DT_BOOL\nshape {\n}\nallocation_description {\n  requested_bytes: 1\n  allocated_bytes: 256\n  allocator_name: GPU_0_bfc\n  allocation_id: 14662\n  ptr: 21491065344\n}\n"
+                }
+            }
+        },
+        {
+            "ph": "N",
+            "cat": "Tensor",
+            "name": "train_accuracy/Const",
+            "pid": 4,
+            "tid": 0,
+            "ts": 1516213472645152,
+            "id": 22
+        },
+        {
+            "ph": "O",
+            "cat": "Tensor",
+            "name": "train_accuracy/Const",
+            "pid": 4,
+            "tid": 0,
+            "ts": 1516213472645155,
+            "id": 22,
+            "args": {
+                "snapshot": {
+                    "tensor_description": "dtype: DT_INT32\nshape {\n  dim {\n    size: 1\n  }\n}\nallocation_description {\n  requested_bytes: 4\n  allocated_bytes: 256\n  allocator_name: cuda_host_bfc\n  allocation_id: 1442\n  ptr: 8636074496\n}\n"
+                }
+            }
+        },
+        {
+            "ph": "N",
+            "cat": "Tensor",
+            "name": "partitions/partition_0/hidden/hidden_0/dense/kernel/read",
+            "pid": 4,
+            "tid": 0,
+            "ts": 1516213472645158,
+            "id": 23
+        },
+        {
+            "ph": "O",
+            "cat": "Tensor",
+            "name": "partitions/partition_0/hidden/hidden_0/dense/kernel/read",
+            "pid": 4,
+            "tid": 0,
+            "ts": 1516213472645163,
+            "id": 23,
+            "args": {
+                "snapshot": {
+                    "tensor_description": "dtype: DT_FLOAT\nshape {\n  dim {\n    size: 784\n  }\n  dim {\n    size: 100\n  }\n}\nallocation_description {\n  requested_bytes: 313600\n  allocated_bytes: 313600\n  allocator_name: GPU_0_bfc\n  allocation_id: 45\n  ptr: 21491906560\n}\n"
+                }
+            }
+        },
+        {
+            "ph": "N",
+            "cat": "Tensor",
+            "name": "partitions/partition_0/hidden/hidden_0/dense/bias/read",
+            "pid": 4,
+            "tid": 0,
+            "ts": 1516213472645166,
+            "id": 24
+        },
+        {
+            "ph": "O",
+            "cat": "Tensor",
+            "name": "partitions/partition_0/hidden/hidden_0/dense/bias/read",
+            "pid": 4,
+            "tid": 0,
+            "ts": 1516213472645170,
+            "id": 24,
+            "args": {
+                "snapshot": {
+                    "tensor_description": "dtype: DT_FLOAT\nshape {\n  dim {\n    size: 100\n  }\n}\nallocation_description {\n  requested_bytes: 400\n  allocated_bytes: 512\n  allocator_name: GPU_0_bfc\n  allocation_id: 20\n  ptr: 21491020032\n}\n"
+                }
+            }
+        },
+        {
+            "ph": "N",
+            "cat": "Tensor",
+            "name": "partitions/partition_0/hidden/hidden_1/dense/kernel/read",
+            "pid": 4,
+            "tid": 0,
+            "ts": 1516213472645174,
+            "id": 25
+        },
+        {
+            "ph": "O",
+            "cat": "Tensor",
+            "name": "partitions/partition_0/hidden/hidden_1/dense/kernel/read",
+            "pid": 4,
+            "tid": 0,
+            "ts": 1516213472645178,
+            "id": 25,
+            "args": {
+                "snapshot": {
+                    "tensor_description": "dtype: DT_FLOAT\nshape {\n  dim {\n    size: 100\n  }\n  dim {\n    size: 100\n  }\n}\nallocation_description {\n  requested_bytes: 40000\n  allocated_bytes: 40192\n  allocator_name: GPU_0_bfc\n  allocation_id: 46\n  ptr: 21490706432\n}\n"
+                }
+            }
+        },
+        {
+            "ph": "N",
+            "cat": "Tensor",
+            "name": "partitions/partition_0/hidden/hidden_1/dense/bias/read",
+            "pid": 4,
+            "tid": 0,
+            "ts": 1516213472645182,
+            "id": 26
+        },
+        {
+            "ph": "O",
+            "cat": "Tensor",
+            "name": "partitions/partition_0/hidden/hidden_1/dense/bias/read",
+            "pid": 4,
+            "tid": 0,
+            "ts": 1516213472645185,
+            "id": 26,
+            "args": {
+                "snapshot": {
+                    "tensor_description": "dtype: DT_FLOAT\nshape {\n  dim {\n    size: 100\n  }\n}\nallocation_description {\n  requested_bytes: 400\n  allocated_bytes: 512\n  allocator_name: GPU_0_bfc\n  allocation_id: 22\n  ptr: 21491060736\n}\n"
+                }
+            }
+        },
+        {
+            "ph": "N",
+            "cat": "Tensor",
+            "name": "partitions/partition_0/hidden/hidden_2/dense/kernel/read",
+            "pid": 4,
+            "tid": 0,
+            "ts": 1516213472645188,
+            "id": 27
+        },
+        {
+            "ph": "O",
+            "cat": "Tensor",
+            "name": "partitions/partition_0/hidden/hidden_2/dense/kernel/read",
+            "pid": 4,
+            "tid": 0,
+            "ts": 1516213472645191,
+            "id": 27,
+            "args": {
+                "snapshot": {
+                    "tensor_description": "dtype: DT_FLOAT\nshape {\n  dim {\n    size: 100\n  }\n  dim {\n    size: 100\n  }\n}\nallocation_description {\n  requested_bytes: 40000\n  allocated_bytes: 40192\n  allocator_name: GPU_0_bfc\n  allocation_id: 47\n  ptr: 21491020544\n}\n"
+                }
+            }
+        },
+        {
+            "ph": "N",
+            "cat": "Tensor",
+            "name": "partitions/partition_0/hidden/hidden_2/dense/bias/read",
+            "pid": 4,
+            "tid": 0,
+            "ts": 1516213472645193,
+            "id": 28
+        },
+        {
+            "ph": "O",
+            "cat": "Tensor",
+            "name": "partitions/partition_0/hidden/hidden_2/dense/bias/read",
+            "pid": 4,
+            "tid": 0,
+            "ts": 1516213472645197,
+            "id": 28,
+            "args": {
+                "snapshot": {
+                    "tensor_description": "dtype: DT_FLOAT\nshape {\n  dim {\n    size: 100\n  }\n}\nallocation_description {\n  requested_bytes: 400\n  allocated_bytes: 512\n  allocator_name: GPU_0_bfc\n  allocation_id: 24\n  ptr: 21491101440\n}\n"
+                }
+            }
+        },
+        {
+            "ph": "N",
+            "cat": "Tensor",
+            "name": "partitions/partition_0/dropout/random_uniform/RandomUniform",
+            "pid": 4,
+            "tid": 0,
+            "ts": 1516213472645199,
+            "id": 29
+        },
+        {
+            "ph": "O",
+            "cat": "Tensor",
+            "name": "partitions/partition_0/dropout/random_uniform/RandomUniform",
+            "pid": 4,
+            "tid": 0,
+            "ts": 1516213472645411,
+            "id": 29,
+            "args": {
+                "snapshot": {
+                    "tensor_description": "dtype: DT_FLOAT\nshape {\n  dim {\n    size: 200\n  }\n  dim {\n    size: 100\n  }\n}\nallocation_description {\n  requested_bytes: 80000\n  allocated_bytes: 80128\n  allocator_name: GPU_0_bfc\n  allocation_id: 14664\n  has_single_reference: true\n  ptr: 21490746624\n}\n"
+                }
+            }
+        },
+        {
+            "ph": "N",
+            "cat": "Tensor",
+            "name": "partitions/partition_0/output_0/dense/kernel/read",
+            "pid": 4,
+            "tid": 0,
+            "ts": 1516213472645415,
+            "id": 30
+        },
+        {
+            "ph": "O",
+            "cat": "Tensor",
+            "name": "partitions/partition_0/output_0/dense/kernel/read",
+            "pid": 4,
+            "tid": 0,
+            "ts": 1516213472645421,
+            "id": 30,
+            "args": {
+                "snapshot": {
+                    "tensor_description": "dtype: DT_FLOAT\nshape {\n  dim {\n    size: 100\n  }\n  dim {\n    size: 10\n  }\n}\nallocation_description {\n  requested_bytes: 4000\n  allocated_bytes: 4096\n  allocator_name: GPU_0_bfc\n  allocation_id: 48\n  ptr: 21491061248\n}\n"
+                }
+            }
+        },
+        {
+            "ph": "N",
+            "cat": "Tensor",
+            "name": "partitions/partition_0/output_0/dense/bias/read",
+            "pid": 4,
+            "tid": 0,
+            "ts": 1516213472645424,
+            "id": 31
+        },
+        {
+            "ph": "O",
+            "cat": "Tensor",
+            "name": "partitions/partition_0/output_0/dense/bias/read",
+            "pid": 4,
+            "tid": 0,
+            "ts": 1516213472645427,
+            "id": 31,
+            "args": {
+                "snapshot": {
+                    "tensor_description": "dtype: DT_FLOAT\nshape {\n  dim {\n    size: 10\n  }\n}\nallocation_description {\n  requested_bytes: 40\n  allocated_bytes: 256\n  allocator_name: GPU_0_bfc\n  allocation_id: 26\n  ptr: 21491106048\n}\n"
+                }
+            }
+        },
+        {
+            "ph": "N",
+            "cat": "Tensor",
+            "name": "partitions/partition_0/dropout/random_uniform/mul",
+            "pid": 4,
+            "tid": 0,
+            "ts": 1516213472645651,
+            "id": 32
+        },
+        {
+            "ph": "O",
+            "cat": "Tensor",
+            "name": "partitions/partition_0/dropout/random_uniform/mul",
+            "pid": 4,
+            "tid": 0,
+            "ts": 1516213472645789,
+            "id": 32,
+            "args": {
+                "snapshot": {
+                    "tensor_description": "dtype: DT_FLOAT\nshape {\n  dim {\n    size: 200\n  }\n  dim {\n    size: 100\n  }\n}\nallocation_description {\n  requested_bytes: 80000\n  allocated_bytes: 80128\n  allocator_name: GPU_0_bfc\n  allocation_id: 14664\n  ptr: 21490746624\n}\n"
+                }
+            }
+        },
+        {
+            "ph": "N",
+            "cat": "Tensor",
+            "name": "cond/Merge",
+            "pid": 4,
+            "tid": 0,
+            "ts": 1516213472645814,
+            "id": 33
+        },
+        {
+            "ph": "O",
+            "cat": "Tensor",
+            "name": "cond/Merge",
+            "pid": 4,
+            "tid": 0,
+            "ts": 1516213472645832,
+            "id": 33,
+            "args": {
+                "snapshot": {
+                    "tensor_description": "dtype: DT_STRING\nshape {\n}\nallocation_description {\n  requested_bytes: 32\n  allocated_bytes: 256\n  allocator_name: cuda_host_bfc\n  allocation_id: 1444\n  ptr: 8636075008\n}\n"
+                }
+            }
+        },
+        {
+            "ph": "N",
+            "cat": "Tensor",
+            "name": "cond/Merge:1",
+            "pid": 4,
+            "tid": 0,
+            "ts": 1516213472645814,
+            "id": 34
+        },
+        {
+            "ph": "O",
+            "cat": "Tensor",
+            "name": "cond/Merge:1",
+            "pid": 4,
+            "tid": 0,
+            "ts": 1516213472645832,
+            "id": 34,
+            "args": {
+                "snapshot": {
+                    "tensor_description": "dtype: DT_INT32\nshape {\n}\nallocation_description {\n  requested_bytes: 4\n  allocated_bytes: 4\n  allocator_name: cpu_pool\n  allocation_id: 1\n  has_single_reference: true\n  ptr: 764762863584\n}\n"
+                }
+            }
+        },
+        {
+            "ph": "N",
+            "cat": "Tensor",
+            "name": "partitions/partition_0/dropout/random_uniform",
+            "pid": 4,
+            "tid": 1,
+            "ts": 1516213472645795,
+            "id": 35
+        },
+        {
+            "ph": "O",
+            "cat": "Tensor",
+            "name": "partitions/partition_0/dropout/random_uniform",
+            "pid": 4,
+            "tid": 1,
+            "ts": 1516213472645849,
+            "id": 35,
+            "args": {
+                "snapshot": {
+                    "tensor_description": "dtype: DT_FLOAT\nshape {\n  dim {\n    size: 200\n  }\n  dim {\n    size: 100\n  }\n}\nallocation_description {\n  requested_bytes: 80000\n  allocated_bytes: 80128\n  allocator_name: GPU_0_bfc\n  allocation_id: 14664\n  ptr: 21490746624\n}\n"
+                }
+            }
+        },
+        {
+            "ph": "N",
+            "cat": "Tensor",
+            "name": "partitions/partition_0/dropout/add",
+            "pid": 4,
+            "tid": 0,
+            "ts": 1516213472645855,
+            "id": 36
+        },
+        {
+            "ph": "O",
+            "cat": "Tensor",
+            "name": "partitions/partition_0/dropout/add",
+            "pid": 4,
+            "tid": 0,
+            "ts": 1516213472645898,
+            "id": 36,
+            "args": {
+                "snapshot": {
+                    "tensor_description": "dtype: DT_FLOAT\nshape {\n  dim {\n    size: 200\n  }\n  dim {\n    size: 100\n  }\n}\nallocation_description {\n  requested_bytes: 80000\n  allocated_bytes: 80128\n  allocator_name: GPU_0_bfc\n  allocation_id: 14664\n  ptr: 21490746624\n}\n"
+                }
+            }
+        },
+        {
+            "ph": "N",
+            "cat": "Tensor",
+            "name": "partitions/partition_0/dropout/Floor",
+            "pid": 4,
+            "tid": 0,
+            "ts": 1516213472645902,
+            "id": 37
+        },
+        {
+            "ph": "O",
+            "cat": "Tensor",
+            "name": "partitions/partition_0/dropout/Floor",
+            "pid": 4,
+            "tid": 0,
+            "ts": 1516213472645945,
+            "id": 37,
+            "args": {
+                "snapshot": {
+                    "tensor_description": "dtype: DT_FLOAT\nshape {\n  dim {\n    size: 200\n  }\n  dim {\n    size: 100\n  }\n}\nallocation_description {\n  requested_bytes: 80000\n  allocated_bytes: 80128\n  allocator_name: GPU_0_bfc\n  allocation_id: 14664\n  ptr: 21490746624\n}\n"
+                }
+            }
+        },
+        {
+            "ph": "N",
+            "cat": "Tensor",
+            "name": "train_accuracy/correct_prediction/ArgMax_1",
+            "pid": 4,
+            "tid": 0,
+            "ts": 1516213472648407,
+            "id": 38
+        },
+        {
+            "ph": "O",
+            "cat": "Tensor",
+            "name": "train_accuracy/correct_prediction/ArgMax_1",
+            "pid": 4,
+            "tid": 0,
+            "ts": 1516213472648547,
+            "id": 38,
+            "args": {
+                "snapshot": {
+                    "tensor_description": "dtype: DT_INT64\nshape {\n  dim {\n    size: 200\n  }\n}\nallocation_description {\n  requested_bytes: 1600\n  allocated_bytes: 1792\n  allocator_name: GPU_0_bfc\n  allocation_id: 14668\n  has_single_reference: true\n  ptr: 21491081984\n}\n"
+                }
+            }
+        },
+        {
+            "ph": "N",
+            "cat": "Tensor",
+            "name": "partitions/partition_0/hidden/hidden_0/dense/MatMul",
+            "pid": 4,
+            "tid": 1,
+            "ts": 1516213472648364,
+            "id": 39
+        },
+        {
+            "ph": "O",
+            "cat": "Tensor",
+            "name": "partitions/partition_0/hidden/hidden_0/dense/MatMul",
+            "pid": 4,
+            "tid": 1,
+            "ts": 1516213472648584,
+            "id": 39,
+            "args": {
+                "snapshot": {
+                    "tensor_description": "dtype: DT_FLOAT\nshape {\n  dim {\n    size: 200\n  }\n  dim {\n    size: 100\n  }\n}\nallocation_description {\n  requested_bytes: 80000\n  allocated_bytes: 80128\n  allocator_name: GPU_0_bfc\n  allocation_id: 14667\n  has_single_reference: true\n  ptr: 21490826752\n}\n"
+                }
+            }
+        },
+        {
+            "ph": "N",
+            "cat": "Tensor",
+            "name": "partitions/partition_0/hidden/hidden_0/dense/BiasAdd",
+            "pid": 4,
+            "tid": 0,
+            "ts": 1516213472648591,
+            "id": 40
+        },
+        {
+            "ph": "O",
+            "cat": "Tensor",
+            "name": "partitions/partition_0/hidden/hidden_0/dense/BiasAdd",
+            "pid": 4,
+            "tid": 0,
+            "ts": 1516213472648645,
+            "id": 40,
+            "args": {
+                "snapshot": {
+                    "tensor_description": "dtype: DT_FLOAT\nshape {\n  dim {\n    size: 200\n  }\n  dim {\n    size: 100\n  }\n}\nallocation_description {\n  requested_bytes: 80000\n  allocated_bytes: 80128\n  allocator_name: GPU_0_bfc\n  allocation_id: 14667\n  ptr: 21490826752\n}\n"
+                }
+            }
+        },
+        {
+            "ph": "N",
+            "cat": "Tensor",
+            "name": "partitions/partition_0/hidden/hidden_0/dense/Relu",
+            "pid": 4,
+            "tid": 0,
+            "ts": 1516213472648649,
+            "id": 41
+        },
+        {
+            "ph": "O",
+            "cat": "Tensor",
+            "name": "partitions/partition_0/hidden/hidden_0/dense/Relu",
+            "pid": 4,
+            "tid": 0,
+            "ts": 1516213472648695,
+            "id": 41,
+            "args": {
+                "snapshot": {
+                    "tensor_description": "dtype: DT_FLOAT\nshape {\n  dim {\n    size: 200\n  }\n  dim {\n    size: 100\n  }\n}\nallocation_description {\n  requested_bytes: 80000\n  allocated_bytes: 80128\n  allocator_name: GPU_0_bfc\n  allocation_id: 14667\n  ptr: 21490826752\n}\n"
+                }
+            }
+        },
+        {
+            "ph": "N",
+            "cat": "Tensor",
+            "name": "partitions/partition_0/hidden/hidden_1/dense/MatMul",
+            "pid": 4,
+            "tid": 0,
+            "ts": 1516213472648700,
+            "id": 42
+        },
+        {
+            "ph": "O",
+            "cat": "Tensor",
+            "name": "partitions/partition_0/hidden/hidden_1/dense/MatMul",
+            "pid": 4,
+            "tid": 0,
+            "ts": 1516213472648763,
+            "id": 42,
+            "args": {
+                "snapshot": {
+                    "tensor_description": "dtype: DT_FLOAT\nshape {\n  dim {\n    size: 200\n  }\n  dim {\n    size: 100\n  }\n}\nallocation_description {\n  requested_bytes: 80000\n  allocated_bytes: 113152\n  allocator_name: GPU_0_bfc\n  allocation_id: 14669\n  has_single_reference: true\n  ptr: 21490906880\n}\n"
+                }
+            }
+        },
+        {
+            "ph": "N",
+            "cat": "Tensor",
+            "name": "partitions/partition_0/hidden/hidden_1/dense/BiasAdd",
+            "pid": 4,
+            "tid": 0,
+            "ts": 1516213472648782,
+            "id": 43
+        },
+        {
+            "ph": "O",
+            "cat": "Tensor",
+            "name": "partitions/partition_0/hidden/hidden_1/dense/BiasAdd",
+            "pid": 4,
+            "tid": 0,
+            "ts": 1516213472648820,
+            "id": 43,
+            "args": {
+                "snapshot": {
+                    "tensor_description": "dtype: DT_FLOAT\nshape {\n  dim {\n    size: 200\n  }\n  dim {\n    size: 100\n  }\n}\nallocation_description {\n  requested_bytes: 80000\n  allocated_bytes: 113152\n  allocator_name: GPU_0_bfc\n  allocation_id: 14669\n  ptr: 21490906880\n}\n"
+                }
+            }
+        },
+        {
+            "ph": "N",
+            "cat": "Tensor",
+            "name": "partitions/partition_0/hidden/hidden_1/dense/Relu",
+            "pid": 4,
+            "tid": 0,
+            "ts": 1516213472648825,
+            "id": 44
+        },
+        {
+            "ph": "O",
+            "cat": "Tensor",
+            "name": "partitions/partition_0/hidden/hidden_1/dense/Relu",
+            "pid": 4,
+            "tid": 0,
+            "ts": 1516213472648860,
+            "id": 44,
+            "args": {
+                "snapshot": {
+                    "tensor_description": "dtype: DT_FLOAT\nshape {\n  dim {\n    size: 200\n  }\n  dim {\n    size: 100\n  }\n}\nallocation_description {\n  requested_bytes: 80000\n  allocated_bytes: 113152\n  allocator_name: GPU_0_bfc\n  allocation_id: 14669\n  ptr: 21490906880\n}\n"
+                }
+            }
+        },
+        {
+            "ph": "N",
+            "cat": "Tensor",
+            "name": "partitions/partition_0/hidden/hidden_2/dense/MatMul",
+            "pid": 4,
+            "tid": 0,
+            "ts": 1516213472648864,
+            "id": 45
+        },
+        {
+            "ph": "O",
+            "cat": "Tensor",
+            "name": "partitions/partition_0/hidden/hidden_2/dense/MatMul",
+            "pid": 4,
+            "tid": 0,
+            "ts": 1516213472648918,
+            "id": 45,
+            "args": {
+                "snapshot": {
+                    "tensor_description": "dtype: DT_FLOAT\nshape {\n  dim {\n    size: 200\n  }\n  dim {\n    size: 100\n  }\n}\nallocation_description {\n  requested_bytes: 80000\n  allocated_bytes: 80128\n  allocator_name: GPU_0_bfc\n  allocation_id: 14670\n  has_single_reference: true\n  ptr: 21490826752\n}\n"
+                }
+            }
+        },
+        {
+            "ph": "N",
+            "cat": "Tensor",
+            "name": "partitions/partition_0/hidden/hidden_2/dense/BiasAdd",
+            "pid": 4,
+            "tid": 0,
+            "ts": 1516213472648923,
+            "id": 46
+        },
+        {
+            "ph": "O",
+            "cat": "Tensor",
+            "name": "partitions/partition_0/hidden/hidden_2/dense/BiasAdd",
+            "pid": 4,
+            "tid": 0,
+            "ts": 1516213472648958,
+            "id": 46,
+            "args": {
+                "snapshot": {
+                    "tensor_description": "dtype: DT_FLOAT\nshape {\n  dim {\n    size: 200\n  }\n  dim {\n    size: 100\n  }\n}\nallocation_description {\n  requested_bytes: 80000\n  allocated_bytes: 80128\n  allocator_name: GPU_0_bfc\n  allocation_id: 14670\n  ptr: 21490826752\n}\n"
+                }
+            }
+        },
+        {
+            "ph": "N",
+            "cat": "Tensor",
+            "name": "partitions/partition_0/hidden/hidden_2/dense/Relu",
+            "pid": 4,
+            "tid": 0,
+            "ts": 1516213472648962,
+            "id": 47
+        },
+        {
+            "ph": "O",
+            "cat": "Tensor",
+            "name": "partitions/partition_0/hidden/hidden_2/dense/Relu",
+            "pid": 4,
+            "tid": 0,
+            "ts": 1516213472648997,
+            "id": 47,
+            "args": {
+                "snapshot": {
+                    "tensor_description": "dtype: DT_FLOAT\nshape {\n  dim {\n    size: 200\n  }\n  dim {\n    size: 100\n  }\n}\nallocation_description {\n  requested_bytes: 80000\n  allocated_bytes: 80128\n  allocator_name: GPU_0_bfc\n  allocation_id: 14670\n  ptr: 21490826752\n}\n"
+                }
+            }
+        },
+        {
+            "ph": "N",
+            "cat": "Tensor",
+            "name": "partitions/partition_0/dropout/div",
+            "pid": 4,
+            "tid": 0,
+            "ts": 1516213472649000,
+            "id": 48
+        },
+        {
+            "ph": "O",
+            "cat": "Tensor",
+            "name": "partitions/partition_0/dropout/div",
+            "pid": 4,
+            "tid": 0,
+            "ts": 1516213472649049,
+            "id": 48,
+            "args": {
+                "snapshot": {
+                    "tensor_description": "dtype: DT_FLOAT\nshape {\n  dim {\n    size: 200\n  }\n  dim {\n    size: 100\n  }\n}\nallocation_description {\n  requested_bytes: 80000\n  allocated_bytes: 80128\n  allocator_name: GPU_0_bfc\n  allocation_id: 14670\n  ptr: 21490826752\n}\n"
+                }
+            }
+        },
+        {
+            "ph": "N",
+            "cat": "Tensor",
+            "name": "partitions/partition_0/dropout/mul",
+            "pid": 4,
+            "tid": 0,
+            "ts": 1516213472649053,
+            "id": 49
+        },
+        {
+            "ph": "O",
+            "cat": "Tensor",
+            "name": "partitions/partition_0/dropout/mul",
+            "pid": 4,
+            "tid": 0,
+            "ts": 1516213472649097,
+            "id": 49,
+            "args": {
+                "snapshot": {
+                    "tensor_description": "dtype: DT_FLOAT\nshape {\n  dim {\n    size: 200\n  }\n  dim {\n    size: 100\n  }\n}\nallocation_description {\n  requested_bytes: 80000\n  allocated_bytes: 80128\n  allocator_name: GPU_0_bfc\n  allocation_id: 14670\n  ptr: 21490826752\n}\n"
+                }
+            }
+        },
+        {
+            "ph": "N",
+            "cat": "Tensor",
+            "name": "partitions/partition_0/output_0/dense/MatMul",
+            "pid": 4,
+            "tid": 0,
+            "ts": 1516213472649102,
+            "id": 50
+        },
+        {
+            "ph": "O",
+            "cat": "Tensor",
+            "name": "partitions/partition_0/output_0/dense/MatMul",
+            "pid": 4,
+            "tid": 0,
+            "ts": 1516213472649184,
+            "id": 50,
+            "args": {
+                "snapshot": {
+                    "tensor_description": "dtype: DT_FLOAT\nshape {\n  dim {\n    size: 200\n  }\n  dim {\n    size: 10\n  }\n}\nallocation_description {\n  requested_bytes: 8000\n  allocated_bytes: 8192\n  allocator_name: GPU_0_bfc\n  allocation_id: 14671\n  has_single_reference: true\n  ptr: 21491065600\n}\n"
+                }
+            }
+        },
+        {
+            "ph": "N",
+            "cat": "Tensor",
+            "name": "partitions/partition_0/output_0/dense/BiasAdd",
+            "pid": 4,
+            "tid": 0,
+            "ts": 1516213472649187,
+            "id": 51
+        },
+        {
+            "ph": "O",
+            "cat": "Tensor",
+            "name": "partitions/partition_0/output_0/dense/BiasAdd",
+            "pid": 4,
+            "tid": 0,
+            "ts": 1516213472649224,
+            "id": 51,
+            "args": {
+                "snapshot": {
+                    "tensor_description": "dtype: DT_FLOAT\nshape {\n  dim {\n    size: 200\n  }\n  dim {\n    size: 10\n  }\n}\nallocation_description {\n  requested_bytes: 8000\n  allocated_bytes: 8192\n  allocator_name: GPU_0_bfc\n  allocation_id: 14671\n  ptr: 21491065600\n}\n"
+                }
+            }
+        },
+        {
+            "ph": "N",
+            "cat": "Tensor",
+            "name": "train_accuracy/correct_prediction/ArgMax",
+            "pid": 4,
+            "tid": 0,
+            "ts": 1516213472649227,
+            "id": 52
+        },
+        {
+            "ph": "O",
+            "cat": "Tensor",
+            "name": "train_accuracy/correct_prediction/ArgMax",
+            "pid": 4,
+            "tid": 0,
+            "ts": 1516213472649275,
+            "id": 52,
+            "args": {
+                "snapshot": {
+                    "tensor_description": "dtype: DT_INT64\nshape {\n  dim {\n    size: 200\n  }\n}\nallocation_description {\n  requested_bytes: 1600\n  allocated_bytes: 1792\n  allocator_name: GPU_0_bfc\n  allocation_id: 14672\n  has_single_reference: true\n  ptr: 21491073792\n}\n"
+                }
+            }
+        },
+        {
+            "ph": "N",
+            "cat": "Tensor",
+            "name": "train_accuracy/correct_prediction/Equal",
+            "pid": 4,
+            "tid": 0,
+            "ts": 1516213472649279,
+            "id": 53
+        },
+        {
+            "ph": "O",
+            "cat": "Tensor",
+            "name": "train_accuracy/correct_prediction/Equal",
+            "pid": 4,
+            "tid": 0,
+            "ts": 1516213472649337,
+            "id": 53,
+            "args": {
+                "snapshot": {
+                    "tensor_description": "dtype: DT_BOOL\nshape {\n  dim {\n    size: 200\n  }\n}\nallocation_description {\n  requested_bytes: 200\n  allocated_bytes: 256\n  allocator_name: GPU_0_bfc\n  allocation_id: 14673\n  has_single_reference: true\n  ptr: 21491075584\n}\n"
+                }
+            }
+        },
+        {
+            "ph": "N",
+            "cat": "Tensor",
+            "name": "train_accuracy/Cast",
+            "pid": 4,
+            "tid": 0,
+            "ts": 1516213472649341,
+            "id": 54
+        },
+        {
+            "ph": "O",
+            "cat": "Tensor",
+            "name": "train_accuracy/Cast",
+            "pid": 4,
+            "tid": 0,
+            "ts": 1516213472649388,
+            "id": 54,
+            "args": {
+                "snapshot": {
+                    "tensor_description": "dtype: DT_FLOAT\nshape {\n  dim {\n    size: 200\n  }\n}\nallocation_description {\n  requested_bytes: 800\n  allocated_bytes: 1024\n  allocator_name: GPU_0_bfc\n  allocation_id: 14674\n  has_single_reference: true\n  ptr: 21491065600\n}\n"
+                }
+            }
+        },
+        {
+            "ph": "N",
+            "cat": "Tensor",
+            "name": "train_accuracy/Mean",
+            "pid": 4,
+            "tid": 0,
+            "ts": 1516213472649391,
+            "id": 55
+        },
+        {
+            "ph": "O",
+            "cat": "Tensor",
+            "name": "train_accuracy/Mean",
+            "pid": 4,
+            "tid": 0,
+            "ts": 1516213472649509,
+            "id": 55,
+            "args": {
+                "snapshot": {
+                    "tensor_description": "dtype: DT_FLOAT\nshape {\n}\nallocation_description {\n  requested_bytes: 4\n  allocated_bytes: 256\n  allocator_name: GPU_0_bfc\n  allocation_id: 14675\n  has_single_reference: true\n  ptr: 21491066624\n}\n"
+                }
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "NoOp",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1516213472644716,
+            "dur": 88,
+            "args": {
+                "name": "_SOURCE",
+                "op": "NoOp"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "_Arg",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1516213472645000,
+            "dur": 14,
+            "args": {
+                "name": "_arg_dropout_keep_bla_0_0",
+                "op": "_Arg"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "OneShotIterator",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1516213472645046,
+            "dur": 25,
+            "args": {
+                "name": "OneShotIterator",
+                "op": "OneShotIterator"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "OneShotIterator",
+            "pid": 1,
+            "tid": 1,
+            "ts": 1516213472644882,
+            "dur": 236,
+            "args": {
+                "name": "OneShotIterator_1",
+                "op": "OneShotIterator"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Switch",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1516213472645732,
+            "dur": 10,
+            "args": {
+                "name": "cond/IteratorToStringHandle/Switch",
+                "op": "Switch",
+                "input0": "OneShotIterator_1",
+                "input1": "Const/_29"
+            }
+        },
+        {
+            "ph": "s",
+            "cat": "DataFlow",
+            "name": "OneShotIterator_1",
+            "pid": 1,
+            "tid": 1,
+            "ts": 1516213472645118,
+            "id": 0
+        },
+        {
+            "ph": "t",
+            "cat": "DataFlow",
+            "name": "OneShotIterator_1",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1516213472645732,
+            "id": 0
+        },
+        {
+            "ph": "s",
+            "cat": "DataFlow",
+            "name": "Const",
+            "pid": 3,
+            "tid": 0,
+            "ts": 1516213472645150,
+            "id": 1
+        },
+        {
+            "ph": "t",
+            "cat": "DataFlow",
+            "name": "Const",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1516213472645732,
+            "id": 1
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "IteratorToStringHandle",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1516213472645747,
+            "dur": 35,
+            "args": {
+                "name": "cond/IteratorToStringHandle",
+                "op": "IteratorToStringHandle",
+                "input0": "cond/IteratorToStringHandle/Switch:1"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Switch",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1516213472645791,
+            "dur": 17,
+            "args": {
+                "name": "cond/IteratorToStringHandle_1/Switch",
+                "op": "Switch",
+                "input0": "OneShotIterator",
+                "input1": "Const/_29"
+            }
+        },
+        {
+            "ph": "s",
+            "cat": "DataFlow",
+            "name": "Const",
+            "pid": 3,
+            "tid": 0,
+            "ts": 1516213472645150,
+            "id": 2
+        },
+        {
+            "ph": "t",
+            "cat": "DataFlow",
+            "name": "Const",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1516213472645791,
+            "id": 2
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "IteratorFromStringHandle",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1516213472645851,
+            "dur": 23,
+            "args": {
+                "name": "IteratorFromStringHandle",
+                "op": "IteratorFromStringHandle",
+                "input0": "cond/Merge/_35"
+            }
+        },
+        {
+            "ph": "s",
+            "cat": "DataFlow",
+            "name": "cond/Merge",
+            "pid": 3,
+            "tid": 0,
+            "ts": 1516213472645833,
+            "id": 3
+        },
+        {
+            "ph": "t",
+            "cat": "DataFlow",
+            "name": "cond/Merge",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1516213472645851,
+            "id": 3
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "IteratorGetNext",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1516213472645876,
+            "dur": 1764,
+            "args": {
+                "name": "IteratorGetNext",
+                "op": "IteratorGetNext",
+                "input0": "IteratorFromStringHandle"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "_Retval",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1516213472650048,
+            "dur": 7,
+            "args": {
+                "name": "_retval_train_accuracy/Mean_0_0",
+                "op": "_Retval",
+                "input0": "train_accuracy/Mean/_43"
+            }
+        },
+        {
+            "ph": "s",
+            "cat": "DataFlow",
+            "name": "train_accuracy/Mean",
+            "pid": 3,
+            "tid": 0,
+            "ts": 1516213472649510,
+            "id": 4
+        },
+        {
+            "ph": "t",
+            "cat": "DataFlow",
+            "name": "train_accuracy/Mean",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1516213472650048,
+            "id": 4
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "NoOp",
+            "pid": 3,
+            "tid": 0,
+            "ts": 1516213472644759,
+            "dur": 97,
+            "args": {
+                "name": "_SOURCE",
+                "op": "NoOp"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "VariableV2",
+            "pid": 3,
+            "tid": 0,
+            "ts": 1516213472644885,
+            "dur": 121,
+            "args": {
+                "name": "partitions/partition_0/hidden/hidden_0/dense/kernel",
+                "op": "VariableV2"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "VariableV2",
+            "pid": 3,
+            "tid": 0,
+            "ts": 1516213472645011,
+            "dur": 18,
+            "args": {
+                "name": "partitions/partition_0/hidden/hidden_0/dense/bias",
+                "op": "VariableV2"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "VariableV2",
+            "pid": 3,
+            "tid": 0,
+            "ts": 1516213472645032,
+            "dur": 11,
+            "args": {
+                "name": "partitions/partition_0/hidden/hidden_1/dense/kernel",
+                "op": "VariableV2"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "VariableV2",
+            "pid": 3,
+            "tid": 0,
+            "ts": 1516213472645047,
+            "dur": 11,
+            "args": {
+                "name": "partitions/partition_0/hidden/hidden_1/dense/bias",
+                "op": "VariableV2"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "VariableV2",
+            "pid": 3,
+            "tid": 0,
+            "ts": 1516213472645062,
+            "dur": 11,
+            "args": {
+                "name": "partitions/partition_0/hidden/hidden_2/dense/kernel",
+                "op": "VariableV2"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "VariableV2",
+            "pid": 3,
+            "tid": 0,
+            "ts": 1516213472645082,
+            "dur": 9,
+            "args": {
+                "name": "partitions/partition_0/hidden/hidden_2/dense/bias",
+                "op": "VariableV2"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Const",
+            "pid": 3,
+            "tid": 0,
+            "ts": 1516213472645094,
+            "dur": 8,
+            "args": {
+                "name": "partitions/partition_0/dropout/Shape",
+                "op": "Const"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Const",
+            "pid": 3,
+            "tid": 0,
+            "ts": 1516213472645104,
+            "dur": 4,
+            "args": {
+                "name": "partitions/partition_0/dropout/random_uniform/sub",
+                "op": "Const"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Const",
+            "pid": 3,
+            "tid": 0,
+            "ts": 1516213472645111,
+            "dur": 9,
+            "args": {
+                "name": "partitions/partition_0/dropout/random_uniform/min",
+                "op": "Const"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "VariableV2",
+            "pid": 3,
+            "tid": 0,
+            "ts": 1516213472645123,
+            "dur": 7,
+            "args": {
+                "name": "partitions/partition_0/output_0/dense/kernel",
+                "op": "VariableV2"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "VariableV2",
+            "pid": 3,
+            "tid": 0,
+            "ts": 1516213472645132,
+            "dur": 7,
+            "args": {
+                "name": "partitions/partition_0/output_0/dense/bias",
+                "op": "VariableV2"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Const",
+            "pid": 3,
+            "tid": 0,
+            "ts": 1516213472645140,
+            "dur": 5,
+            "args": {
+                "name": "train_accuracy/correct_prediction/ArgMax/dimension",
+                "op": "Const"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Const",
+            "pid": 3,
+            "tid": 0,
+            "ts": 1516213472645146,
+            "dur": 4,
+            "args": {
+                "name": "Const",
+                "op": "Const"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Const",
+            "pid": 3,
+            "tid": 0,
+            "ts": 1516213472645152,
+            "dur": 4,
+            "args": {
+                "name": "train_accuracy/Const",
+                "op": "Const"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Identity",
+            "pid": 3,
+            "tid": 0,
+            "ts": 1516213472645158,
+            "dur": 6,
+            "args": {
+                "name": "partitions/partition_0/hidden/hidden_0/dense/kernel/read",
+                "op": "Identity",
+                "input0": "partitions/partition_0/hidden/hidden_0/dense/kernel"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Identity",
+            "pid": 3,
+            "tid": 0,
+            "ts": 1516213472645166,
+            "dur": 5,
+            "args": {
+                "name": "partitions/partition_0/hidden/hidden_0/dense/bias/read",
+                "op": "Identity",
+                "input0": "partitions/partition_0/hidden/hidden_0/dense/bias"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Identity",
+            "pid": 3,
+            "tid": 0,
+            "ts": 1516213472645174,
+            "dur": 5,
+            "args": {
+                "name": "partitions/partition_0/hidden/hidden_1/dense/kernel/read",
+                "op": "Identity",
+                "input0": "partitions/partition_0/hidden/hidden_1/dense/kernel"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Identity",
+            "pid": 3,
+            "tid": 0,
+            "ts": 1516213472645182,
+            "dur": 4,
+            "args": {
+                "name": "partitions/partition_0/hidden/hidden_1/dense/bias/read",
+                "op": "Identity",
+                "input0": "partitions/partition_0/hidden/hidden_1/dense/bias"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Identity",
+            "pid": 3,
+            "tid": 0,
+            "ts": 1516213472645188,
+            "dur": 4,
+            "args": {
+                "name": "partitions/partition_0/hidden/hidden_2/dense/kernel/read",
+                "op": "Identity",
+                "input0": "partitions/partition_0/hidden/hidden_2/dense/kernel"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Identity",
+            "pid": 3,
+            "tid": 0,
+            "ts": 1516213472645193,
+            "dur": 5,
+            "args": {
+                "name": "partitions/partition_0/hidden/hidden_2/dense/bias/read",
+                "op": "Identity",
+                "input0": "partitions/partition_0/hidden/hidden_2/dense/bias"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "RandomUniform",
+            "pid": 3,
+            "tid": 0,
+            "ts": 1516213472645199,
+            "dur": 213,
+            "args": {
+                "name": "partitions/partition_0/dropout/random_uniform/RandomUniform",
+                "op": "RandomUniform",
+                "input0": "partitions/partition_0/dropout/Shape"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Identity",
+            "pid": 3,
+            "tid": 0,
+            "ts": 1516213472645415,
+            "dur": 7,
+            "args": {
+                "name": "partitions/partition_0/output_0/dense/kernel/read",
+                "op": "Identity",
+                "input0": "partitions/partition_0/output_0/dense/kernel"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Identity",
+            "pid": 3,
+            "tid": 0,
+            "ts": 1516213472645424,
+            "dur": 4,
+            "args": {
+                "name": "partitions/partition_0/output_0/dense/bias/read",
+                "op": "Identity",
+                "input0": "partitions/partition_0/output_0/dense/bias"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Mul",
+            "pid": 3,
+            "tid": 0,
+            "ts": 1516213472645651,
+            "dur": 139,
+            "args": {
+                "name": "partitions/partition_0/dropout/random_uniform/mul",
+                "op": "Mul",
+                "input0": "partitions/partition_0/dropout/random_uniform/RandomUniform",
+                "input1": "partitions/partition_0/dropout/random_uniform/sub"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Merge",
+            "pid": 3,
+            "tid": 0,
+            "ts": 1516213472645814,
+            "dur": 19,
+            "args": {
+                "name": "cond/Merge",
+                "op": "Merge",
+                "input0": "cond/IteratorToStringHandle_1/_31",
+                "input1": "cond/IteratorToStringHandle/_33"
+            }
+        },
+        {
+            "ph": "s",
+            "cat": "DataFlow",
+            "name": "cond/IteratorToStringHandle",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1516213472645782,
+            "id": 5
+        },
+        {
+            "ph": "t",
+            "cat": "DataFlow",
+            "name": "cond/IteratorToStringHandle",
+            "pid": 3,
+            "tid": 0,
+            "ts": 1516213472645814,
+            "id": 5
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Add",
+            "pid": 3,
+            "tid": 1,
+            "ts": 1516213472645795,
+            "dur": 55,
+            "args": {
+                "name": "partitions/partition_0/dropout/random_uniform",
+                "op": "Add",
+                "input0": "partitions/partition_0/dropout/random_uniform/mul",
+                "input1": "partitions/partition_0/dropout/random_uniform/min"
+            }
+        },
+        {
+            "ph": "s",
+            "cat": "DataFlow",
+            "name": "partitions/partition_0/dropout/random_uniform/mul",
+            "pid": 3,
+            "tid": 0,
+            "ts": 1516213472645790,
+            "id": 6
+        },
+        {
+            "ph": "t",
+            "cat": "DataFlow",
+            "name": "partitions/partition_0/dropout/random_uniform/mul",
+            "pid": 3,
+            "tid": 1,
+            "ts": 1516213472645795,
+            "id": 6
+        },
+        {
+            "ph": "s",
+            "cat": "DataFlow",
+            "name": "partitions/partition_0/dropout/random_uniform/min",
+            "pid": 3,
+            "tid": 0,
+            "ts": 1516213472645120,
+            "id": 7
+        },
+        {
+            "ph": "t",
+            "cat": "DataFlow",
+            "name": "partitions/partition_0/dropout/random_uniform/min",
+            "pid": 3,
+            "tid": 1,
+            "ts": 1516213472645795,
+            "id": 7
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Add",
+            "pid": 3,
+            "tid": 0,
+            "ts": 1516213472645855,
+            "dur": 44,
+            "args": {
+                "name": "partitions/partition_0/dropout/add",
+                "op": "Add",
+                "input0": "_arg_dropout_keep_bla_0_0/_39",
+                "input1": "partitions/partition_0/dropout/random_uniform"
+            }
+        },
+        {
+            "ph": "s",
+            "cat": "DataFlow",
+            "name": "_arg_dropout_keep_bla_0_0",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1516213472645014,
+            "id": 8
+        },
+        {
+            "ph": "t",
+            "cat": "DataFlow",
+            "name": "_arg_dropout_keep_bla_0_0",
+            "pid": 3,
+            "tid": 0,
+            "ts": 1516213472645855,
+            "id": 8
+        },
+        {
+            "ph": "s",
+            "cat": "DataFlow",
+            "name": "partitions/partition_0/dropout/random_uniform",
+            "pid": 3,
+            "tid": 1,
+            "ts": 1516213472645850,
+            "id": 9
+        },
+        {
+            "ph": "t",
+            "cat": "DataFlow",
+            "name": "partitions/partition_0/dropout/random_uniform",
+            "pid": 3,
+            "tid": 0,
+            "ts": 1516213472645855,
+            "id": 9
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Floor",
+            "pid": 3,
+            "tid": 0,
+            "ts": 1516213472645902,
+            "dur": 44,
+            "args": {
+                "name": "partitions/partition_0/dropout/Floor",
+                "op": "Floor",
+                "input0": "partitions/partition_0/dropout/add"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "ArgMax",
+            "pid": 3,
+            "tid": 0,
+            "ts": 1516213472648407,
+            "dur": 141,
+            "args": {
+                "name": "train_accuracy/correct_prediction/ArgMax_1",
+                "op": "ArgMax",
+                "input0": "IteratorGetNext/_37",
+                "input1": "train_accuracy/correct_prediction/ArgMax/dimension"
+            }
+        },
+        {
+            "ph": "s",
+            "cat": "DataFlow",
+            "name": "IteratorGetNext",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1516213472647640,
+            "id": 10
+        },
+        {
+            "ph": "t",
+            "cat": "DataFlow",
+            "name": "IteratorGetNext",
+            "pid": 3,
+            "tid": 0,
+            "ts": 1516213472648407,
+            "id": 10
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "MatMul",
+            "pid": 3,
+            "tid": 1,
+            "ts": 1516213472648364,
+            "dur": 221,
+            "args": {
+                "name": "partitions/partition_0/hidden/hidden_0/dense/MatMul",
+                "op": "MatMul",
+                "input0": "IteratorGetNext/_41",
+                "input1": "partitions/partition_0/hidden/hidden_0/dense/kernel/read"
+            }
+        },
+        {
+            "ph": "s",
+            "cat": "DataFlow",
+            "name": "IteratorGetNext",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1516213472647640,
+            "id": 11
+        },
+        {
+            "ph": "t",
+            "cat": "DataFlow",
+            "name": "IteratorGetNext",
+            "pid": 3,
+            "tid": 1,
+            "ts": 1516213472648364,
+            "id": 11
+        },
+        {
+            "ph": "s",
+            "cat": "DataFlow",
+            "name": "partitions/partition_0/hidden/hidden_0/dense/kernel/read",
+            "pid": 3,
+            "tid": 0,
+            "ts": 1516213472645164,
+            "id": 12
+        },
+        {
+            "ph": "t",
+            "cat": "DataFlow",
+            "name": "partitions/partition_0/hidden/hidden_0/dense/kernel/read",
+            "pid": 3,
+            "tid": 1,
+            "ts": 1516213472648364,
+            "id": 12
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "BiasAdd",
+            "pid": 3,
+            "tid": 0,
+            "ts": 1516213472648591,
+            "dur": 55,
+            "args": {
+                "name": "partitions/partition_0/hidden/hidden_0/dense/BiasAdd",
+                "op": "BiasAdd",
+                "input0": "partitions/partition_0/hidden/hidden_0/dense/MatMul",
+                "input1": "partitions/partition_0/hidden/hidden_0/dense/bias/read"
+            }
+        },
+        {
+            "ph": "s",
+            "cat": "DataFlow",
+            "name": "partitions/partition_0/hidden/hidden_0/dense/MatMul",
+            "pid": 3,
+            "tid": 1,
+            "ts": 1516213472648585,
+            "id": 13
+        },
+        {
+            "ph": "t",
+            "cat": "DataFlow",
+            "name": "partitions/partition_0/hidden/hidden_0/dense/MatMul",
+            "pid": 3,
+            "tid": 0,
+            "ts": 1516213472648591,
+            "id": 13
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Relu",
+            "pid": 3,
+            "tid": 0,
+            "ts": 1516213472648649,
+            "dur": 47,
+            "args": {
+                "name": "partitions/partition_0/hidden/hidden_0/dense/Relu",
+                "op": "Relu",
+                "input0": "partitions/partition_0/hidden/hidden_0/dense/BiasAdd"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "MatMul",
+            "pid": 3,
+            "tid": 0,
+            "ts": 1516213472648700,
+            "dur": 64,
+            "args": {
+                "name": "partitions/partition_0/hidden/hidden_1/dense/MatMul",
+                "op": "MatMul",
+                "input0": "partitions/partition_0/hidden/hidden_0/dense/Relu",
+                "input1": "partitions/partition_0/hidden/hidden_1/dense/kernel/read"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "BiasAdd",
+            "pid": 3,
+            "tid": 0,
+            "ts": 1516213472648782,
+            "dur": 39,
+            "args": {
+                "name": "partitions/partition_0/hidden/hidden_1/dense/BiasAdd",
+                "op": "BiasAdd",
+                "input0": "partitions/partition_0/hidden/hidden_1/dense/MatMul",
+                "input1": "partitions/partition_0/hidden/hidden_1/dense/bias/read"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Relu",
+            "pid": 3,
+            "tid": 0,
+            "ts": 1516213472648825,
+            "dur": 36,
+            "args": {
+                "name": "partitions/partition_0/hidden/hidden_1/dense/Relu",
+                "op": "Relu",
+                "input0": "partitions/partition_0/hidden/hidden_1/dense/BiasAdd"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "MatMul",
+            "pid": 3,
+            "tid": 0,
+            "ts": 1516213472648864,
+            "dur": 55,
+            "args": {
+                "name": "partitions/partition_0/hidden/hidden_2/dense/MatMul",
+                "op": "MatMul",
+                "input0": "partitions/partition_0/hidden/hidden_1/dense/Relu",
+                "input1": "partitions/partition_0/hidden/hidden_2/dense/kernel/read"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "BiasAdd",
+            "pid": 3,
+            "tid": 0,
+            "ts": 1516213472648923,
+            "dur": 36,
+            "args": {
+                "name": "partitions/partition_0/hidden/hidden_2/dense/BiasAdd",
+                "op": "BiasAdd",
+                "input0": "partitions/partition_0/hidden/hidden_2/dense/MatMul",
+                "input1": "partitions/partition_0/hidden/hidden_2/dense/bias/read"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Relu",
+            "pid": 3,
+            "tid": 0,
+            "ts": 1516213472648962,
+            "dur": 36,
+            "args": {
+                "name": "partitions/partition_0/hidden/hidden_2/dense/Relu",
+                "op": "Relu",
+                "input0": "partitions/partition_0/hidden/hidden_2/dense/BiasAdd"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "RealDiv",
+            "pid": 3,
+            "tid": 0,
+            "ts": 1516213472649000,
+            "dur": 50,
+            "args": {
+                "name": "partitions/partition_0/dropout/div",
+                "op": "RealDiv",
+                "input0": "partitions/partition_0/hidden/hidden_2/dense/Relu",
+                "input1": "_arg_dropout_keep_bla_0_0/_39"
+            }
+        },
+        {
+            "ph": "s",
+            "cat": "DataFlow",
+            "name": "_arg_dropout_keep_bla_0_0",
+            "pid": 1,
+            "tid": 0,
+            "ts": 1516213472645014,
+            "id": 14
+        },
+        {
+            "ph": "t",
+            "cat": "DataFlow",
+            "name": "_arg_dropout_keep_bla_0_0",
+            "pid": 3,
+            "tid": 0,
+            "ts": 1516213472649000,
+            "id": 14
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Mul",
+            "pid": 3,
+            "tid": 0,
+            "ts": 1516213472649053,
+            "dur": 45,
+            "args": {
+                "name": "partitions/partition_0/dropout/mul",
+                "op": "Mul",
+                "input0": "partitions/partition_0/dropout/div",
+                "input1": "partitions/partition_0/dropout/Floor"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "MatMul",
+            "pid": 3,
+            "tid": 0,
+            "ts": 1516213472649102,
+            "dur": 83,
+            "args": {
+                "name": "partitions/partition_0/output_0/dense/MatMul",
+                "op": "MatMul",
+                "input0": "partitions/partition_0/dropout/mul",
+                "input1": "partitions/partition_0/output_0/dense/kernel/read"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "BiasAdd",
+            "pid": 3,
+            "tid": 0,
+            "ts": 1516213472649187,
+            "dur": 38,
+            "args": {
+                "name": "partitions/partition_0/output_0/dense/BiasAdd",
+                "op": "BiasAdd",
+                "input0": "partitions/partition_0/output_0/dense/MatMul",
+                "input1": "partitions/partition_0/output_0/dense/bias/read"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "ArgMax",
+            "pid": 3,
+            "tid": 0,
+            "ts": 1516213472649227,
+            "dur": 49,
+            "args": {
+                "name": "train_accuracy/correct_prediction/ArgMax",
+                "op": "ArgMax",
+                "input0": "partitions/partition_0/output_0/dense/BiasAdd",
+                "input1": "train_accuracy/correct_prediction/ArgMax/dimension"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Equal",
+            "pid": 3,
+            "tid": 0,
+            "ts": 1516213472649279,
+            "dur": 59,
+            "args": {
+                "name": "train_accuracy/correct_prediction/Equal",
+                "op": "Equal",
+                "input0": "train_accuracy/correct_prediction/ArgMax",
+                "input1": "train_accuracy/correct_prediction/ArgMax_1"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Cast",
+            "pid": 3,
+            "tid": 0,
+            "ts": 1516213472649341,
+            "dur": 48,
+            "args": {
+                "name": "train_accuracy/Cast",
+                "op": "Cast",
+                "input0": "train_accuracy/correct_prediction/Equal"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Mean",
+            "pid": 3,
+            "tid": 0,
+            "ts": 1516213472649391,
+            "dur": 119,
+            "args": {
+                "name": "train_accuracy/Mean",
+                "op": "Mean",
+                "input0": "train_accuracy/Cast",
+                "input1": "train_accuracy/Const"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "RandomUniform",
+            "pid": 5,
+            "tid": 0,
+            "ts": 1516213472645656,
+            "dur": 21,
+            "args": {
+                "name": "partitions/partition_0/dropout/random_uniform/RandomUniform",
+                "op": "RandomUniform"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Mul",
+            "pid": 5,
+            "tid": 0,
+            "ts": 1516213472647972,
+            "dur": 5,
+            "args": {
+                "name": "partitions/partition_0/dropout/random_uniform/mul",
+                "op": "Mul"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Add",
+            "pid": 5,
+            "tid": 0,
+            "ts": 1516213472647980,
+            "dur": 4,
+            "args": {
+                "name": "partitions/partition_0/dropout/random_uniform",
+                "op": "Add"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Add",
+            "pid": 5,
+            "tid": 0,
+            "ts": 1516213472647988,
+            "dur": 4,
+            "args": {
+                "name": "partitions/partition_0/dropout/add",
+                "op": "Add"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Floor",
+            "pid": 5,
+            "tid": 0,
+            "ts": 1516213472647995,
+            "dur": 4,
+            "args": {
+                "name": "partitions/partition_0/dropout/Floor",
+                "op": "Floor"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "ArgMax",
+            "pid": 5,
+            "tid": 0,
+            "ts": 1516213472649579,
+            "dur": 9,
+            "args": {
+                "name": "train_accuracy/correct_prediction/ArgMax_1",
+                "op": "ArgMax"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "MatMul",
+            "pid": 5,
+            "tid": 0,
+            "ts": 1516213472649595,
+            "dur": 126,
+            "args": {
+                "name": "partitions/partition_0/hidden/hidden_0/dense/MatMul",
+                "op": "MatMul"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "BiasAdd",
+            "pid": 5,
+            "tid": 0,
+            "ts": 1516213472649728,
+            "dur": 10,
+            "args": {
+                "name": "partitions/partition_0/hidden/hidden_0/dense/BiasAdd",
+                "op": "BiasAdd"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Relu",
+            "pid": 5,
+            "tid": 0,
+            "ts": 1516213472649740,
+            "dur": 5,
+            "args": {
+                "name": "partitions/partition_0/hidden/hidden_0/dense/Relu",
+                "op": "Relu"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "MatMul",
+            "pid": 5,
+            "tid": 0,
+            "ts": 1516213472649751,
+            "dur": 39,
+            "args": {
+                "name": "partitions/partition_0/hidden/hidden_1/dense/MatMul",
+                "op": "MatMul"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "BiasAdd",
+            "pid": 5,
+            "tid": 0,
+            "ts": 1516213472649796,
+            "dur": 5,
+            "args": {
+                "name": "partitions/partition_0/hidden/hidden_1/dense/BiasAdd",
+                "op": "BiasAdd"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Relu",
+            "pid": 5,
+            "tid": 0,
+            "ts": 1516213472649807,
+            "dur": 4,
+            "args": {
+                "name": "partitions/partition_0/hidden/hidden_1/dense/Relu",
+                "op": "Relu"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "MatMul",
+            "pid": 5,
+            "tid": 0,
+            "ts": 1516213472649818,
+            "dur": 24,
+            "args": {
+                "name": "partitions/partition_0/hidden/hidden_2/dense/MatMul",
+                "op": "MatMul"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "BiasAdd",
+            "pid": 5,
+            "tid": 0,
+            "ts": 1516213472649847,
+            "dur": 7,
+            "args": {
+                "name": "partitions/partition_0/hidden/hidden_2/dense/BiasAdd",
+                "op": "BiasAdd"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Relu",
+            "pid": 5,
+            "tid": 0,
+            "ts": 1516213472649859,
+            "dur": 3,
+            "args": {
+                "name": "partitions/partition_0/hidden/hidden_2/dense/Relu",
+                "op": "Relu"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "RealDiv",
+            "pid": 5,
+            "tid": 0,
+            "ts": 1516213472649867,
+            "dur": 10,
+            "args": {
+                "name": "partitions/partition_0/dropout/div",
+                "op": "RealDiv"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Mul",
+            "pid": 5,
+            "tid": 0,
+            "ts": 1516213472649882,
+            "dur": 10,
+            "args": {
+                "name": "partitions/partition_0/dropout/mul",
+                "op": "Mul"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "MatMul",
+            "pid": 5,
+            "tid": 0,
+            "ts": 1516213472649895,
+            "dur": 16,
+            "args": {
+                "name": "partitions/partition_0/output_0/dense/MatMul",
+                "op": "MatMul"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "BiasAdd",
+            "pid": 5,
+            "tid": 0,
+            "ts": 1516213472649914,
+            "dur": 3,
+            "args": {
+                "name": "partitions/partition_0/output_0/dense/BiasAdd",
+                "op": "BiasAdd"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "ArgMax",
+            "pid": 5,
+            "tid": 0,
+            "ts": 1516213472649921,
+            "dur": 8,
+            "args": {
+                "name": "train_accuracy/correct_prediction/ArgMax",
+                "op": "ArgMax"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Equal",
+            "pid": 5,
+            "tid": 0,
+            "ts": 1516213472649934,
+            "dur": 4,
+            "args": {
+                "name": "train_accuracy/correct_prediction/Equal",
+                "op": "Equal"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Cast",
+            "pid": 5,
+            "tid": 0,
+            "ts": 1516213472649941,
+            "dur": 3,
+            "args": {
+                "name": "train_accuracy/Cast",
+                "op": "Cast"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Mean",
+            "pid": 5,
+            "tid": 0,
+            "ts": 1516213472649948,
+            "dur": 5,
+            "args": {
+                "name": "train_accuracy/Mean",
+                "op": "Mean"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "RandomUniform",
+            "pid": 7,
+            "tid": 0,
+            "ts": 1516213472645656,
+            "dur": 21,
+            "args": {
+                "name": "partitions/partition_0/dropout/random_uniform/RandomUniform",
+                "op": "RandomUniform"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Mul",
+            "pid": 7,
+            "tid": 0,
+            "ts": 1516213472647972,
+            "dur": 5,
+            "args": {
+                "name": "partitions/partition_0/dropout/random_uniform/mul",
+                "op": "Mul"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Add",
+            "pid": 7,
+            "tid": 0,
+            "ts": 1516213472647980,
+            "dur": 4,
+            "args": {
+                "name": "partitions/partition_0/dropout/random_uniform",
+                "op": "Add"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Add",
+            "pid": 7,
+            "tid": 0,
+            "ts": 1516213472647988,
+            "dur": 4,
+            "args": {
+                "name": "partitions/partition_0/dropout/add",
+                "op": "Add"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Floor",
+            "pid": 7,
+            "tid": 0,
+            "ts": 1516213472647995,
+            "dur": 4,
+            "args": {
+                "name": "partitions/partition_0/dropout/Floor",
+                "op": "Floor"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "ArgMax",
+            "pid": 7,
+            "tid": 0,
+            "ts": 1516213472649579,
+            "dur": 9,
+            "args": {
+                "name": "train_accuracy/correct_prediction/ArgMax_1",
+                "op": "ArgMax"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "MatMul",
+            "pid": 7,
+            "tid": 0,
+            "ts": 1516213472649595,
+            "dur": 126,
+            "args": {
+                "name": "partitions/partition_0/hidden/hidden_0/dense/MatMul",
+                "op": "MatMul"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "BiasAdd",
+            "pid": 7,
+            "tid": 0,
+            "ts": 1516213472649728,
+            "dur": 10,
+            "args": {
+                "name": "partitions/partition_0/hidden/hidden_0/dense/BiasAdd",
+                "op": "BiasAdd"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Relu",
+            "pid": 7,
+            "tid": 0,
+            "ts": 1516213472649740,
+            "dur": 5,
+            "args": {
+                "name": "partitions/partition_0/hidden/hidden_0/dense/Relu",
+                "op": "Relu"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "MatMul",
+            "pid": 7,
+            "tid": 0,
+            "ts": 1516213472649751,
+            "dur": 39,
+            "args": {
+                "name": "partitions/partition_0/hidden/hidden_1/dense/MatMul",
+                "op": "MatMul"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "BiasAdd",
+            "pid": 7,
+            "tid": 0,
+            "ts": 1516213472649796,
+            "dur": 5,
+            "args": {
+                "name": "partitions/partition_0/hidden/hidden_1/dense/BiasAdd",
+                "op": "BiasAdd"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Relu",
+            "pid": 7,
+            "tid": 0,
+            "ts": 1516213472649807,
+            "dur": 4,
+            "args": {
+                "name": "partitions/partition_0/hidden/hidden_1/dense/Relu",
+                "op": "Relu"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "MatMul",
+            "pid": 7,
+            "tid": 0,
+            "ts": 1516213472649818,
+            "dur": 24,
+            "args": {
+                "name": "partitions/partition_0/hidden/hidden_2/dense/MatMul",
+                "op": "MatMul"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "BiasAdd",
+            "pid": 7,
+            "tid": 0,
+            "ts": 1516213472649847,
+            "dur": 7,
+            "args": {
+                "name": "partitions/partition_0/hidden/hidden_2/dense/BiasAdd",
+                "op": "BiasAdd"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Relu",
+            "pid": 7,
+            "tid": 0,
+            "ts": 1516213472649859,
+            "dur": 3,
+            "args": {
+                "name": "partitions/partition_0/hidden/hidden_2/dense/Relu",
+                "op": "Relu"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "RealDiv",
+            "pid": 7,
+            "tid": 0,
+            "ts": 1516213472649867,
+            "dur": 10,
+            "args": {
+                "name": "partitions/partition_0/dropout/div",
+                "op": "RealDiv"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Mul",
+            "pid": 7,
+            "tid": 0,
+            "ts": 1516213472649882,
+            "dur": 10,
+            "args": {
+                "name": "partitions/partition_0/dropout/mul",
+                "op": "Mul"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "MatMul",
+            "pid": 7,
+            "tid": 0,
+            "ts": 1516213472649895,
+            "dur": 16,
+            "args": {
+                "name": "partitions/partition_0/output_0/dense/MatMul",
+                "op": "MatMul"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "BiasAdd",
+            "pid": 7,
+            "tid": 0,
+            "ts": 1516213472649914,
+            "dur": 3,
+            "args": {
+                "name": "partitions/partition_0/output_0/dense/BiasAdd",
+                "op": "BiasAdd"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "ArgMax",
+            "pid": 7,
+            "tid": 0,
+            "ts": 1516213472649921,
+            "dur": 8,
+            "args": {
+                "name": "train_accuracy/correct_prediction/ArgMax",
+                "op": "ArgMax"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Equal",
+            "pid": 7,
+            "tid": 0,
+            "ts": 1516213472649934,
+            "dur": 4,
+            "args": {
+                "name": "train_accuracy/correct_prediction/Equal",
+                "op": "Equal"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Cast",
+            "pid": 7,
+            "tid": 0,
+            "ts": 1516213472649941,
+            "dur": 3,
+            "args": {
+                "name": "train_accuracy/Cast",
+                "op": "Cast"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Mean",
+            "pid": 7,
+            "tid": 0,
+            "ts": 1516213472649948,
+            "dur": 5,
+            "args": {
+                "name": "train_accuracy/Mean",
+                "op": "Mean"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "MEMCPYHtoD",
+            "pid": 9,
+            "tid": 0,
+            "ts": 1516213472645329,
+            "dur": 1,
+            "args": {
+                "name": "edge_76__arg_dropout_keep_bla_0_0",
+                "op": "MEMCPYHtoD"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "MEMCPYDtoH",
+            "pid": 9,
+            "tid": 0,
+            "ts": 1516213472645679,
+            "dur": 2,
+            "args": {
+                "name": "edge_3_Const",
+                "op": "MEMCPYDtoH"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "MEMCPYHtoD",
+            "pid": 9,
+            "tid": 0,
+            "ts": 1516213472648005,
+            "dur": 238,
+            "args": {
+                "name": "edge_29_IteratorGetNext",
+                "op": "MEMCPYHtoD"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "MEMCPYHtoD",
+            "pid": 9,
+            "tid": 0,
+            "ts": 1516213472648254,
+            "dur": 2,
+            "args": {
+                "name": "edge_12_IteratorGetNext",
+                "op": "MEMCPYHtoD"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "MEMCPYDtoH",
+            "pid": 9,
+            "tid": 0,
+            "ts": 1516213472649953,
+            "dur": 1,
+            "args": {
+                "name": "edge_78_train_accuracy/Mean",
+                "op": "MEMCPYDtoH"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "MEMCPYHtoD",
+            "pid": 11,
+            "tid": 0,
+            "ts": 1516213472645329,
+            "dur": 1,
+            "args": {
+                "name": "edge_76__arg_dropout_keep_bla_0_0",
+                "op": "MEMCPYHtoD"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "MEMCPYHtoD",
+            "pid": 11,
+            "tid": 0,
+            "ts": 1516213472648005,
+            "dur": 238,
+            "args": {
+                "name": "edge_29_IteratorGetNext",
+                "op": "MEMCPYHtoD"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "MEMCPYHtoD",
+            "pid": 11,
+            "tid": 0,
+            "ts": 1516213472648254,
+            "dur": 2,
+            "args": {
+                "name": "edge_12_IteratorGetNext",
+                "op": "MEMCPYHtoD"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "MEMCPYDtoH",
+            "pid": 13,
+            "tid": 0,
+            "ts": 1516213472645679,
+            "dur": 2,
+            "args": {
+                "name": "edge_3_Const",
+                "op": "MEMCPYDtoH"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "MEMCPYDtoH",
+            "pid": 13,
+            "tid": 0,
+            "ts": 1516213472649953,
+            "dur": 1,
+            "args": {
+                "name": "edge_78_train_accuracy/Mean",
+                "op": "MEMCPYDtoH"
+            }
+        },
+        {
+            "ph": "D",
+            "cat": "Tensor",
+            "name": "_arg_dropout_keep_bla_0_0",
+            "pid": 2,
+            "tid": 0,
+            "ts": 1516213472649049,
+            "id": 0
+        },
+        {
+            "ph": "D",
+            "cat": "Tensor",
+            "name": "OneShotIterator",
+            "pid": 2,
+            "tid": 0,
+            "ts": 1516213472645807,
+            "id": 1
+        },
+        {
+            "ph": "D",
+            "cat": "Tensor",
+            "name": "OneShotIterator_1",
+            "pid": 2,
+            "tid": 0,
+            "ts": 1516213472645741,
+            "id": 2
+        },
+        {
+            "ph": "D",
+            "cat": "Tensor",
+            "name": "cond/IteratorToStringHandle/Switch",
+            "pid": 2,
+            "tid": 0,
+            "ts": 1516213472645742,
+            "id": 3
+        },
+        {
+            "ph": "D",
+            "cat": "Tensor",
+            "name": "cond/IteratorToStringHandle",
+            "pid": 2,
+            "tid": 0,
+            "ts": 1516213472645832,
+            "id": 4
+        },
+        {
+            "ph": "D",
+            "cat": "Tensor",
+            "name": "cond/IteratorToStringHandle_1/Switch",
+            "pid": 2,
+            "tid": 0,
+            "ts": 1516213472645808,
+            "id": 5
+        },
+        {
+            "ph": "D",
+            "cat": "Tensor",
+            "name": "IteratorFromStringHandle",
+            "pid": 2,
+            "tid": 0,
+            "ts": 1516213472647639,
+            "id": 6
+        },
+        {
+            "ph": "D",
+            "cat": "Tensor",
+            "name": "IteratorGetNext",
+            "pid": 2,
+            "tid": 0,
+            "ts": 1516213472648584,
+            "id": 7
+        },
+        {
+            "ph": "D",
+            "cat": "Tensor",
+            "name": "IteratorGetNext:1",
+            "pid": 2,
+            "tid": 0,
+            "ts": 1516213472647640,
+            "id": 8
+        },
+        {
+            "ph": "D",
+            "cat": "Tensor",
+            "name": "partitions/partition_0/hidden/hidden_0/dense/kernel",
+            "pid": 4,
+            "tid": 0,
+            "ts": 1516213472645163,
+            "id": 9
+        },
+        {
+            "ph": "D",
+            "cat": "Tensor",
+            "name": "partitions/partition_0/hidden/hidden_0/dense/bias",
+            "pid": 4,
+            "tid": 0,
+            "ts": 1516213472645170,
+            "id": 10
+        },
+        {
+            "ph": "D",
+            "cat": "Tensor",
+            "name": "partitions/partition_0/hidden/hidden_1/dense/kernel",
+            "pid": 4,
+            "tid": 0,
+            "ts": 1516213472645178,
+            "id": 11
+        },
+        {
+            "ph": "D",
+            "cat": "Tensor",
+            "name": "partitions/partition_0/hidden/hidden_1/dense/bias",
+            "pid": 4,
+            "tid": 0,
+            "ts": 1516213472645185,
+            "id": 12
+        },
+        {
+            "ph": "D",
+            "cat": "Tensor",
+            "name": "partitions/partition_0/hidden/hidden_2/dense/kernel",
+            "pid": 4,
+            "tid": 0,
+            "ts": 1516213472645191,
+            "id": 13
+        },
+        {
+            "ph": "D",
+            "cat": "Tensor",
+            "name": "partitions/partition_0/hidden/hidden_2/dense/bias",
+            "pid": 4,
+            "tid": 0,
+            "ts": 1516213472645197,
+            "id": 14
+        },
+        {
+            "ph": "D",
+            "cat": "Tensor",
+            "name": "partitions/partition_0/dropout/Shape",
+            "pid": 4,
+            "tid": 0,
+            "ts": 1516213472645411,
+            "id": 15
+        },
+        {
+            "ph": "D",
+            "cat": "Tensor",
+            "name": "partitions/partition_0/dropout/random_uniform/sub",
+            "pid": 4,
+            "tid": 0,
+            "ts": 1516213472645789,
+            "id": 16
+        },
+        {
+            "ph": "D",
+            "cat": "Tensor",
+            "name": "partitions/partition_0/dropout/random_uniform/min",
+            "pid": 4,
+            "tid": 0,
+            "ts": 1516213472645849,
+            "id": 17
+        },
+        {
+            "ph": "D",
+            "cat": "Tensor",
+            "name": "partitions/partition_0/output_0/dense/kernel",
+            "pid": 4,
+            "tid": 0,
+            "ts": 1516213472645421,
+            "id": 18
+        },
+        {
+            "ph": "D",
+            "cat": "Tensor",
+            "name": "partitions/partition_0/output_0/dense/bias",
+            "pid": 4,
+            "tid": 0,
+            "ts": 1516213472645427,
+            "id": 19
+        },
+        {
+            "ph": "D",
+            "cat": "Tensor",
+            "name": "train_accuracy/correct_prediction/ArgMax/dimension",
+            "pid": 4,
+            "tid": 0,
+            "ts": 1516213472649275,
+            "id": 20
+        },
+        {
+            "ph": "D",
+            "cat": "Tensor",
+            "name": "Const",
+            "pid": 4,
+            "tid": 0,
+            "ts": 1516213472645807,
+            "id": 21
+        },
+        {
+            "ph": "D",
+            "cat": "Tensor",
+            "name": "train_accuracy/Const",
+            "pid": 4,
+            "tid": 0,
+            "ts": 1516213472649509,
+            "id": 22
+        },
+        {
+            "ph": "D",
+            "cat": "Tensor",
+            "name": "partitions/partition_0/hidden/hidden_0/dense/kernel/read",
+            "pid": 4,
+            "tid": 0,
+            "ts": 1516213472648584,
+            "id": 23
+        },
+        {
+            "ph": "D",
+            "cat": "Tensor",
+            "name": "partitions/partition_0/hidden/hidden_0/dense/bias/read",
+            "pid": 4,
+            "tid": 0,
+            "ts": 1516213472648645,
+            "id": 24
+        },
+        {
+            "ph": "D",
+            "cat": "Tensor",
+            "name": "partitions/partition_0/hidden/hidden_1/dense/kernel/read",
+            "pid": 4,
+            "tid": 0,
+            "ts": 1516213472648763,
+            "id": 25
+        },
+        {
+            "ph": "D",
+            "cat": "Tensor",
+            "name": "partitions/partition_0/hidden/hidden_1/dense/bias/read",
+            "pid": 4,
+            "tid": 0,
+            "ts": 1516213472648820,
+            "id": 26
+        },
+        {
+            "ph": "D",
+            "cat": "Tensor",
+            "name": "partitions/partition_0/hidden/hidden_2/dense/kernel/read",
+            "pid": 4,
+            "tid": 0,
+            "ts": 1516213472648918,
+            "id": 27
+        },
+        {
+            "ph": "D",
+            "cat": "Tensor",
+            "name": "partitions/partition_0/hidden/hidden_2/dense/bias/read",
+            "pid": 4,
+            "tid": 0,
+            "ts": 1516213472648958,
+            "id": 28
+        },
+        {
+            "ph": "D",
+            "cat": "Tensor",
+            "name": "partitions/partition_0/dropout/random_uniform/RandomUniform",
+            "pid": 4,
+            "tid": 0,
+            "ts": 1516213472645789,
+            "id": 29
+        },
+        {
+            "ph": "D",
+            "cat": "Tensor",
+            "name": "partitions/partition_0/output_0/dense/kernel/read",
+            "pid": 4,
+            "tid": 0,
+            "ts": 1516213472649184,
+            "id": 30
+        },
+        {
+            "ph": "D",
+            "cat": "Tensor",
+            "name": "partitions/partition_0/output_0/dense/bias/read",
+            "pid": 4,
+            "tid": 0,
+            "ts": 1516213472649224,
+            "id": 31
+        },
+        {
+            "ph": "D",
+            "cat": "Tensor",
+            "name": "partitions/partition_0/dropout/random_uniform/mul",
+            "pid": 4,
+            "tid": 0,
+            "ts": 1516213472645849,
+            "id": 32
+        },
+        {
+            "ph": "D",
+            "cat": "Tensor",
+            "name": "cond/Merge",
+            "pid": 4,
+            "tid": 0,
+            "ts": 1516213472645873,
+            "id": 33
+        },
+        {
+            "ph": "D",
+            "cat": "Tensor",
+            "name": "cond/Merge:1",
+            "pid": 4,
+            "tid": 0,
+            "ts": 1516213472645833,
+            "id": 34
+        },
+        {
+            "ph": "D",
+            "cat": "Tensor",
+            "name": "partitions/partition_0/dropout/random_uniform",
+            "pid": 4,
+            "tid": 0,
+            "ts": 1516213472645898,
+            "id": 35
+        },
+        {
+            "ph": "D",
+            "cat": "Tensor",
+            "name": "partitions/partition_0/dropout/add",
+            "pid": 4,
+            "tid": 0,
+            "ts": 1516213472645945,
+            "id": 36
+        },
+        {
+            "ph": "D",
+            "cat": "Tensor",
+            "name": "partitions/partition_0/dropout/Floor",
+            "pid": 4,
+            "tid": 0,
+            "ts": 1516213472649097,
+            "id": 37
+        },
+        {
+            "ph": "D",
+            "cat": "Tensor",
+            "name": "train_accuracy/correct_prediction/ArgMax_1",
+            "pid": 4,
+            "tid": 0,
+            "ts": 1516213472649337,
+            "id": 38
+        },
+        {
+            "ph": "D",
+            "cat": "Tensor",
+            "name": "partitions/partition_0/hidden/hidden_0/dense/MatMul",
+            "pid": 4,
+            "tid": 0,
+            "ts": 1516213472648645,
+            "id": 39
+        },
+        {
+            "ph": "D",
+            "cat": "Tensor",
+            "name": "partitions/partition_0/hidden/hidden_0/dense/BiasAdd",
+            "pid": 4,
+            "tid": 0,
+            "ts": 1516213472648695,
+            "id": 40
+        },
+        {
+            "ph": "D",
+            "cat": "Tensor",
+            "name": "partitions/partition_0/hidden/hidden_0/dense/Relu",
+            "pid": 4,
+            "tid": 0,
+            "ts": 1516213472648763,
+            "id": 41
+        },
+        {
+            "ph": "D",
+            "cat": "Tensor",
+            "name": "partitions/partition_0/hidden/hidden_1/dense/MatMul",
+            "pid": 4,
+            "tid": 0,
+            "ts": 1516213472648820,
+            "id": 42
+        },
+        {
+            "ph": "D",
+            "cat": "Tensor",
+            "name": "partitions/partition_0/hidden/hidden_1/dense/BiasAdd",
+            "pid": 4,
+            "tid": 0,
+            "ts": 1516213472648860,
+            "id": 43
+        },
+        {
+            "ph": "D",
+            "cat": "Tensor",
+            "name": "partitions/partition_0/hidden/hidden_1/dense/Relu",
+            "pid": 4,
+            "tid": 0,
+            "ts": 1516213472648918,
+            "id": 44
+        },
+        {
+            "ph": "D",
+            "cat": "Tensor",
+            "name": "partitions/partition_0/hidden/hidden_2/dense/MatMul",
+            "pid": 4,
+            "tid": 0,
+            "ts": 1516213472648958,
+            "id": 45
+        },
+        {
+            "ph": "D",
+            "cat": "Tensor",
+            "name": "partitions/partition_0/hidden/hidden_2/dense/BiasAdd",
+            "pid": 4,
+            "tid": 0,
+            "ts": 1516213472648997,
+            "id": 46
+        },
+        {
+            "ph": "D",
+            "cat": "Tensor",
+            "name": "partitions/partition_0/hidden/hidden_2/dense/Relu",
+            "pid": 4,
+            "tid": 0,
+            "ts": 1516213472649049,
+            "id": 47
+        },
+        {
+            "ph": "D",
+            "cat": "Tensor",
+            "name": "partitions/partition_0/dropout/div",
+            "pid": 4,
+            "tid": 0,
+            "ts": 1516213472649097,
+            "id": 48
+        },
+        {
+            "ph": "D",
+            "cat": "Tensor",
+            "name": "partitions/partition_0/dropout/mul",
+            "pid": 4,
+            "tid": 0,
+            "ts": 1516213472649184,
+            "id": 49
+        },
+        {
+            "ph": "D",
+            "cat": "Tensor",
+            "name": "partitions/partition_0/output_0/dense/MatMul",
+            "pid": 4,
+            "tid": 0,
+            "ts": 1516213472649224,
+            "id": 50
+        },
+        {
+            "ph": "D",
+            "cat": "Tensor",
+            "name": "partitions/partition_0/output_0/dense/BiasAdd",
+            "pid": 4,
+            "tid": 0,
+            "ts": 1516213472649275,
+            "id": 51
+        },
+        {
+            "ph": "D",
+            "cat": "Tensor",
+            "name": "train_accuracy/correct_prediction/ArgMax",
+            "pid": 4,
+            "tid": 0,
+            "ts": 1516213472649337,
+            "id": 52
+        },
+        {
+            "ph": "D",
+            "cat": "Tensor",
+            "name": "train_accuracy/correct_prediction/Equal",
+            "pid": 4,
+            "tid": 0,
+            "ts": 1516213472649388,
+            "id": 53
+        },
+        {
+            "ph": "D",
+            "cat": "Tensor",
+            "name": "train_accuracy/Cast",
+            "pid": 4,
+            "tid": 0,
+            "ts": 1516213472649509,
+            "id": 54
+        },
+        {
+            "ph": "D",
+            "cat": "Tensor",
+            "name": "train_accuracy/Mean",
+            "pid": 4,
+            "tid": 0,
+            "ts": 1516213472650054,
+            "id": 55
+        },
+        {
+            "ph": "C",
+            "cat": "Memory",
+            "name": "cpu",
+            "pid": 0,
+            "tid": 0,
+            "ts": 1516213472644882,
+            "args": {
+                "cpu": 136
+            }
+        },
+        {
+            "ph": "C",
+            "cat": "Memory",
+            "name": "cpu",
+            "pid": 0,
+            "tid": 0,
+            "ts": 1516213472645000,
+            "args": {
+                "cpu": 140
+            }
+        },
+        {
+            "ph": "C",
+            "cat": "Memory",
+            "name": "cpu",
+            "pid": 0,
+            "tid": 0,
+            "ts": 1516213472645046,
+            "args": {
+                "cpu": 276
+            }
+        },
+        {
+            "ph": "C",
+            "cat": "Memory",
+            "name": "cpu",
+            "pid": 0,
+            "tid": 0,
+            "ts": 1516213472645732,
+            "args": {
+                "cpu": 412
+            }
+        },
+        {
+            "ph": "C",
+            "cat": "Memory",
+            "name": "cpu",
+            "pid": 0,
+            "tid": 0,
+            "ts": 1516213472645741,
+            "args": {
+                "cpu": 276
+            }
+        },
+        {
+            "ph": "C",
+            "cat": "Memory",
+            "name": "cpu",
+            "pid": 0,
+            "tid": 0,
+            "ts": 1516213472645742,
+            "args": {
+                "cpu": 140
+            }
+        },
+        {
+            "ph": "C",
+            "cat": "Memory",
+            "name": "cpu",
+            "pid": 0,
+            "tid": 0,
+            "ts": 1516213472645791,
+            "args": {
+                "cpu": 276
+            }
+        },
+        {
+            "ph": "C",
+            "cat": "Memory",
+            "name": "cpu",
+            "pid": 0,
+            "tid": 0,
+            "ts": 1516213472645807,
+            "args": {
+                "cpu": 140
+            }
+        },
+        {
+            "ph": "C",
+            "cat": "Memory",
+            "name": "cpu",
+            "pid": 0,
+            "tid": 0,
+            "ts": 1516213472645808,
+            "args": {
+                "cpu": 4
+            }
+        },
+        {
+            "ph": "C",
+            "cat": "Memory",
+            "name": "cpu",
+            "pid": 0,
+            "tid": 0,
+            "ts": 1516213472645851,
+            "args": {
+                "cpu": 140
+            }
+        },
+        {
+            "ph": "C",
+            "cat": "Memory",
+            "name": "cpu",
+            "pid": 0,
+            "tid": 0,
+            "ts": 1516213472645876,
+            "args": {
+                "cpu": 16140
+            }
+        },
+        {
+            "ph": "C",
+            "cat": "Memory",
+            "name": "cpu",
+            "pid": 0,
+            "tid": 0,
+            "ts": 1516213472645876,
+            "args": {
+                "cpu": 643340
+            }
+        },
+        {
+            "ph": "C",
+            "cat": "Memory",
+            "name": "cpu",
+            "pid": 0,
+            "tid": 0,
+            "ts": 1516213472647639,
+            "args": {
+                "cpu": 643204
+            }
+        },
+        {
+            "ph": "C",
+            "cat": "Memory",
+            "name": "cpu",
+            "pid": 0,
+            "tid": 0,
+            "ts": 1516213472647640,
+            "args": {
+                "cpu": 627204
+            }
+        },
+        {
+            "ph": "C",
+            "cat": "Memory",
+            "name": "cpu",
+            "pid": 0,
+            "tid": 0,
+            "ts": 1516213472648584,
+            "args": {
+                "cpu": 4
+            }
+        },
+        {
+            "ph": "C",
+            "cat": "Memory",
+            "name": "cpu",
+            "pid": 0,
+            "tid": 0,
+            "ts": 1516213472649049,
+            "args": {
+                "cpu": 0
+            }
+        },
+        {
+            "ph": "C",
+            "cat": "Memory",
+            "name": "cuda_host_bfc",
+            "pid": 0,
+            "tid": 0,
+            "ts": 1516213472645094,
+            "args": {
+                "cuda_host_bfc": 8
+            }
+        },
+        {
+            "ph": "C",
+            "cat": "Memory",
+            "name": "cuda_host_bfc",
+            "pid": 0,
+            "tid": 0,
+            "ts": 1516213472645140,
+            "args": {
+                "cuda_host_bfc": 12
+            }
+        },
+        {
+            "ph": "C",
+            "cat": "Memory",
+            "name": "cuda_host_bfc",
+            "pid": 0,
+            "tid": 0,
+            "ts": 1516213472645152,
+            "args": {
+                "cuda_host_bfc": 16
+            }
+        },
+        {
+            "ph": "C",
+            "cat": "Memory",
+            "name": "cuda_host_bfc",
+            "pid": 0,
+            "tid": 0,
+            "ts": 1516213472645411,
+            "args": {
+                "cuda_host_bfc": 8
+            }
+        },
+        {
+            "ph": "C",
+            "cat": "Memory",
+            "name": "cuda_host_bfc",
+            "pid": 0,
+            "tid": 0,
+            "ts": 1516213472645747,
+            "args": {
+                "cuda_host_bfc": 40
+            }
+        },
+        {
+            "ph": "C",
+            "cat": "Memory",
+            "name": "cuda_host_bfc",
+            "pid": 0,
+            "tid": 0,
+            "ts": 1516213472645814,
+            "args": {
+                "cuda_host_bfc": 72
+            }
+        },
+        {
+            "ph": "C",
+            "cat": "Memory",
+            "name": "cuda_host_bfc",
+            "pid": 0,
+            "tid": 0,
+            "ts": 1516213472645832,
+            "args": {
+                "cuda_host_bfc": 40
+            }
+        },
+        {
+            "ph": "C",
+            "cat": "Memory",
+            "name": "cuda_host_bfc",
+            "pid": 0,
+            "tid": 0,
+            "ts": 1516213472645873,
+            "args": {
+                "cuda_host_bfc": 8
+            }
+        },
+        {
+            "ph": "C",
+            "cat": "Memory",
+            "name": "cuda_host_bfc",
+            "pid": 0,
+            "tid": 0,
+            "ts": 1516213472649275,
+            "args": {
+                "cuda_host_bfc": 4
+            }
+        },
+        {
+            "ph": "C",
+            "cat": "Memory",
+            "name": "cuda_host_bfc",
+            "pid": 0,
+            "tid": 0,
+            "ts": 1516213472649509,
+            "args": {
+                "cuda_host_bfc": 0
+            }
+        },
+        {
+            "ph": "C",
+            "cat": "Memory",
+            "name": "GPU_0_bfc",
+            "pid": 0,
+            "tid": 0,
+            "ts": 1516213472644885,
+            "args": {
+                "GPU_0_bfc": 313600
+            }
+        },
+        {
+            "ph": "C",
+            "cat": "Memory",
+            "name": "GPU_0_bfc",
+            "pid": 0,
+            "tid": 0,
+            "ts": 1516213472645011,
+            "args": {
+                "GPU_0_bfc": 314000
+            }
+        },
+        {
+            "ph": "C",
+            "cat": "Memory",
+            "name": "GPU_0_bfc",
+            "pid": 0,
+            "tid": 0,
+            "ts": 1516213472645032,
+            "args": {
+                "GPU_0_bfc": 354000
+            }
+        },
+        {
+            "ph": "C",
+            "cat": "Memory",
+            "name": "GPU_0_bfc",
+            "pid": 0,
+            "tid": 0,
+            "ts": 1516213472645047,
+            "args": {
+                "GPU_0_bfc": 354400
+            }
+        },
+        {
+            "ph": "C",
+            "cat": "Memory",
+            "name": "GPU_0_bfc",
+            "pid": 0,
+            "tid": 0,
+            "ts": 1516213472645062,
+            "args": {
+                "GPU_0_bfc": 394400
+            }
+        },
+        {
+            "ph": "C",
+            "cat": "Memory",
+            "name": "GPU_0_bfc",
+            "pid": 0,
+            "tid": 0,
+            "ts": 1516213472645082,
+            "args": {
+                "GPU_0_bfc": 394800
+            }
+        },
+        {
+            "ph": "C",
+            "cat": "Memory",
+            "name": "GPU_0_bfc",
+            "pid": 0,
+            "tid": 0,
+            "ts": 1516213472645104,
+            "args": {
+                "GPU_0_bfc": 394804
+            }
+        },
+        {
+            "ph": "C",
+            "cat": "Memory",
+            "name": "GPU_0_bfc",
+            "pid": 0,
+            "tid": 0,
+            "ts": 1516213472645111,
+            "args": {
+                "GPU_0_bfc": 394808
+            }
+        },
+        {
+            "ph": "C",
+            "cat": "Memory",
+            "name": "GPU_0_bfc",
+            "pid": 0,
+            "tid": 0,
+            "ts": 1516213472645123,
+            "args": {
+                "GPU_0_bfc": 398808
+            }
+        },
+        {
+            "ph": "C",
+            "cat": "Memory",
+            "name": "GPU_0_bfc",
+            "pid": 0,
+            "tid": 0,
+            "ts": 1516213472645132,
+            "args": {
+                "GPU_0_bfc": 398848
+            }
+        },
+        {
+            "ph": "C",
+            "cat": "Memory",
+            "name": "GPU_0_bfc",
+            "pid": 0,
+            "tid": 0,
+            "ts": 1516213472645146,
+            "args": {
+                "GPU_0_bfc": 398849
+            }
+        },
+        {
+            "ph": "C",
+            "cat": "Memory",
+            "name": "GPU_0_bfc",
+            "pid": 0,
+            "tid": 0,
+            "ts": 1516213472645158,
+            "args": {
+                "GPU_0_bfc": 712449
+            }
+        },
+        {
+            "ph": "C",
+            "cat": "Memory",
+            "name": "GPU_0_bfc",
+            "pid": 0,
+            "tid": 0,
+            "ts": 1516213472645163,
+            "args": {
+                "GPU_0_bfc": 398849
+            }
+        },
+        {
+            "ph": "C",
+            "cat": "Memory",
+            "name": "GPU_0_bfc",
+            "pid": 0,
+            "tid": 0,
+            "ts": 1516213472645166,
+            "args": {
+                "GPU_0_bfc": 399249
+            }
+        },
+        {
+            "ph": "C",
+            "cat": "Memory",
+            "name": "GPU_0_bfc",
+            "pid": 0,
+            "tid": 0,
+            "ts": 1516213472645170,
+            "args": {
+                "GPU_0_bfc": 398849
+            }
+        },
+        {
+            "ph": "C",
+            "cat": "Memory",
+            "name": "GPU_0_bfc",
+            "pid": 0,
+            "tid": 0,
+            "ts": 1516213472645174,
+            "args": {
+                "GPU_0_bfc": 438849
+            }
+        },
+        {
+            "ph": "C",
+            "cat": "Memory",
+            "name": "GPU_0_bfc",
+            "pid": 0,
+            "tid": 0,
+            "ts": 1516213472645178,
+            "args": {
+                "GPU_0_bfc": 398849
+            }
+        },
+        {
+            "ph": "C",
+            "cat": "Memory",
+            "name": "GPU_0_bfc",
+            "pid": 0,
+            "tid": 0,
+            "ts": 1516213472645182,
+            "args": {
+                "GPU_0_bfc": 399249
+            }
+        },
+        {
+            "ph": "C",
+            "cat": "Memory",
+            "name": "GPU_0_bfc",
+            "pid": 0,
+            "tid": 0,
+            "ts": 1516213472645185,
+            "args": {
+                "GPU_0_bfc": 398849
+            }
+        },
+        {
+            "ph": "C",
+            "cat": "Memory",
+            "name": "GPU_0_bfc",
+            "pid": 0,
+            "tid": 0,
+            "ts": 1516213472645188,
+            "args": {
+                "GPU_0_bfc": 438849
+            }
+        },
+        {
+            "ph": "C",
+            "cat": "Memory",
+            "name": "GPU_0_bfc",
+            "pid": 0,
+            "tid": 0,
+            "ts": 1516213472645191,
+            "args": {
+                "GPU_0_bfc": 398849
+            }
+        },
+        {
+            "ph": "C",
+            "cat": "Memory",
+            "name": "GPU_0_bfc",
+            "pid": 0,
+            "tid": 0,
+            "ts": 1516213472645193,
+            "args": {
+                "GPU_0_bfc": 399249
+            }
+        },
+        {
+            "ph": "C",
+            "cat": "Memory",
+            "name": "GPU_0_bfc",
+            "pid": 0,
+            "tid": 0,
+            "ts": 1516213472645197,
+            "args": {
+                "GPU_0_bfc": 398849
+            }
+        },
+        {
+            "ph": "C",
+            "cat": "Memory",
+            "name": "GPU_0_bfc",
+            "pid": 0,
+            "tid": 0,
+            "ts": 1516213472645199,
+            "args": {
+                "GPU_0_bfc": 478849
+            }
+        },
+        {
+            "ph": "C",
+            "cat": "Memory",
+            "name": "GPU_0_bfc",
+            "pid": 0,
+            "tid": 0,
+            "ts": 1516213472645415,
+            "args": {
+                "GPU_0_bfc": 482849
+            }
+        },
+        {
+            "ph": "C",
+            "cat": "Memory",
+            "name": "GPU_0_bfc",
+            "pid": 0,
+            "tid": 0,
+            "ts": 1516213472645421,
+            "args": {
+                "GPU_0_bfc": 478849
+            }
+        },
+        {
+            "ph": "C",
+            "cat": "Memory",
+            "name": "GPU_0_bfc",
+            "pid": 0,
+            "tid": 0,
+            "ts": 1516213472645424,
+            "args": {
+                "GPU_0_bfc": 478889
+            }
+        },
+        {
+            "ph": "C",
+            "cat": "Memory",
+            "name": "GPU_0_bfc",
+            "pid": 0,
+            "tid": 0,
+            "ts": 1516213472645427,
+            "args": {
+                "GPU_0_bfc": 478849
+            }
+        },
+        {
+            "ph": "C",
+            "cat": "Memory",
+            "name": "GPU_0_bfc",
+            "pid": 0,
+            "tid": 0,
+            "ts": 1516213472645651,
+            "args": {
+                "GPU_0_bfc": 558849
+            }
+        },
+        {
+            "ph": "C",
+            "cat": "Memory",
+            "name": "GPU_0_bfc",
+            "pid": 0,
+            "tid": 0,
+            "ts": 1516213472645789,
+            "args": {
+                "GPU_0_bfc": 478849
+            }
+        },
+        {
+            "ph": "C",
+            "cat": "Memory",
+            "name": "GPU_0_bfc",
+            "pid": 0,
+            "tid": 0,
+            "ts": 1516213472645789,
+            "args": {
+                "GPU_0_bfc": 478845
+            }
+        },
+        {
+            "ph": "C",
+            "cat": "Memory",
+            "name": "GPU_0_bfc",
+            "pid": 0,
+            "tid": 0,
+            "ts": 1516213472645795,
+            "args": {
+                "GPU_0_bfc": 558845
+            }
+        },
+        {
+            "ph": "C",
+            "cat": "Memory",
+            "name": "GPU_0_bfc",
+            "pid": 0,
+            "tid": 0,
+            "ts": 1516213472645807,
+            "args": {
+                "GPU_0_bfc": 558844
+            }
+        },
+        {
+            "ph": "C",
+            "cat": "Memory",
+            "name": "GPU_0_bfc",
+            "pid": 0,
+            "tid": 0,
+            "ts": 1516213472645849,
+            "args": {
+                "GPU_0_bfc": 478844
+            }
+        },
+        {
+            "ph": "C",
+            "cat": "Memory",
+            "name": "GPU_0_bfc",
+            "pid": 0,
+            "tid": 0,
+            "ts": 1516213472645849,
+            "args": {
+                "GPU_0_bfc": 478840
+            }
+        },
+        {
+            "ph": "C",
+            "cat": "Memory",
+            "name": "GPU_0_bfc",
+            "pid": 0,
+            "tid": 0,
+            "ts": 1516213472645855,
+            "args": {
+                "GPU_0_bfc": 558840
+            }
+        },
+        {
+            "ph": "C",
+            "cat": "Memory",
+            "name": "GPU_0_bfc",
+            "pid": 0,
+            "tid": 0,
+            "ts": 1516213472645898,
+            "args": {
+                "GPU_0_bfc": 478840
+            }
+        },
+        {
+            "ph": "C",
+            "cat": "Memory",
+            "name": "GPU_0_bfc",
+            "pid": 0,
+            "tid": 0,
+            "ts": 1516213472645902,
+            "args": {
+                "GPU_0_bfc": 558840
+            }
+        },
+        {
+            "ph": "C",
+            "cat": "Memory",
+            "name": "GPU_0_bfc",
+            "pid": 0,
+            "tid": 0,
+            "ts": 1516213472645945,
+            "args": {
+                "GPU_0_bfc": 478840
+            }
+        },
+        {
+            "ph": "C",
+            "cat": "Memory",
+            "name": "GPU_0_bfc",
+            "pid": 0,
+            "tid": 0,
+            "ts": 1516213472648364,
+            "args": {
+                "GPU_0_bfc": 558840
+            }
+        },
+        {
+            "ph": "C",
+            "cat": "Memory",
+            "name": "GPU_0_bfc",
+            "pid": 0,
+            "tid": 0,
+            "ts": 1516213472648407,
+            "args": {
+                "GPU_0_bfc": 560440
+            }
+        },
+        {
+            "ph": "C",
+            "cat": "Memory",
+            "name": "GPU_0_bfc",
+            "pid": 0,
+            "tid": 0,
+            "ts": 1516213472648584,
+            "args": {
+                "GPU_0_bfc": 246840
+            }
+        },
+        {
+            "ph": "C",
+            "cat": "Memory",
+            "name": "GPU_0_bfc",
+            "pid": 0,
+            "tid": 0,
+            "ts": 1516213472648591,
+            "args": {
+                "GPU_0_bfc": 326840
+            }
+        },
+        {
+            "ph": "C",
+            "cat": "Memory",
+            "name": "GPU_0_bfc",
+            "pid": 0,
+            "tid": 0,
+            "ts": 1516213472648645,
+            "args": {
+                "GPU_0_bfc": 246840
+            }
+        },
+        {
+            "ph": "C",
+            "cat": "Memory",
+            "name": "GPU_0_bfc",
+            "pid": 0,
+            "tid": 0,
+            "ts": 1516213472648645,
+            "args": {
+                "GPU_0_bfc": 246440
+            }
+        },
+        {
+            "ph": "C",
+            "cat": "Memory",
+            "name": "GPU_0_bfc",
+            "pid": 0,
+            "tid": 0,
+            "ts": 1516213472648649,
+            "args": {
+                "GPU_0_bfc": 326440
+            }
+        },
+        {
+            "ph": "C",
+            "cat": "Memory",
+            "name": "GPU_0_bfc",
+            "pid": 0,
+            "tid": 0,
+            "ts": 1516213472648695,
+            "args": {
+                "GPU_0_bfc": 246440
+            }
+        },
+        {
+            "ph": "C",
+            "cat": "Memory",
+            "name": "GPU_0_bfc",
+            "pid": 0,
+            "tid": 0,
+            "ts": 1516213472648700,
+            "args": {
+                "GPU_0_bfc": 326440
+            }
+        },
+        {
+            "ph": "C",
+            "cat": "Memory",
+            "name": "GPU_0_bfc",
+            "pid": 0,
+            "tid": 0,
+            "ts": 1516213472648763,
+            "args": {
+                "GPU_0_bfc": 246440
+            }
+        },
+        {
+            "ph": "C",
+            "cat": "Memory",
+            "name": "GPU_0_bfc",
+            "pid": 0,
+            "tid": 0,
+            "ts": 1516213472648763,
+            "args": {
+                "GPU_0_bfc": 206440
+            }
+        },
+        {
+            "ph": "C",
+            "cat": "Memory",
+            "name": "GPU_0_bfc",
+            "pid": 0,
+            "tid": 0,
+            "ts": 1516213472648782,
+            "args": {
+                "GPU_0_bfc": 286440
+            }
+        },
+        {
+            "ph": "C",
+            "cat": "Memory",
+            "name": "GPU_0_bfc",
+            "pid": 0,
+            "tid": 0,
+            "ts": 1516213472648820,
+            "args": {
+                "GPU_0_bfc": 206440
+            }
+        },
+        {
+            "ph": "C",
+            "cat": "Memory",
+            "name": "GPU_0_bfc",
+            "pid": 0,
+            "tid": 0,
+            "ts": 1516213472648820,
+            "args": {
+                "GPU_0_bfc": 206040
+            }
+        },
+        {
+            "ph": "C",
+            "cat": "Memory",
+            "name": "GPU_0_bfc",
+            "pid": 0,
+            "tid": 0,
+            "ts": 1516213472648825,
+            "args": {
+                "GPU_0_bfc": 286040
+            }
+        },
+        {
+            "ph": "C",
+            "cat": "Memory",
+            "name": "GPU_0_bfc",
+            "pid": 0,
+            "tid": 0,
+            "ts": 1516213472648860,
+            "args": {
+                "GPU_0_bfc": 206040
+            }
+        },
+        {
+            "ph": "C",
+            "cat": "Memory",
+            "name": "GPU_0_bfc",
+            "pid": 0,
+            "tid": 0,
+            "ts": 1516213472648864,
+            "args": {
+                "GPU_0_bfc": 286040
+            }
+        },
+        {
+            "ph": "C",
+            "cat": "Memory",
+            "name": "GPU_0_bfc",
+            "pid": 0,
+            "tid": 0,
+            "ts": 1516213472648918,
+            "args": {
+                "GPU_0_bfc": 206040
+            }
+        },
+        {
+            "ph": "C",
+            "cat": "Memory",
+            "name": "GPU_0_bfc",
+            "pid": 0,
+            "tid": 0,
+            "ts": 1516213472648918,
+            "args": {
+                "GPU_0_bfc": 166040
+            }
+        },
+        {
+            "ph": "C",
+            "cat": "Memory",
+            "name": "GPU_0_bfc",
+            "pid": 0,
+            "tid": 0,
+            "ts": 1516213472648923,
+            "args": {
+                "GPU_0_bfc": 246040
+            }
+        },
+        {
+            "ph": "C",
+            "cat": "Memory",
+            "name": "GPU_0_bfc",
+            "pid": 0,
+            "tid": 0,
+            "ts": 1516213472648958,
+            "args": {
+                "GPU_0_bfc": 166040
+            }
+        },
+        {
+            "ph": "C",
+            "cat": "Memory",
+            "name": "GPU_0_bfc",
+            "pid": 0,
+            "tid": 0,
+            "ts": 1516213472648958,
+            "args": {
+                "GPU_0_bfc": 165640
+            }
+        },
+        {
+            "ph": "C",
+            "cat": "Memory",
+            "name": "GPU_0_bfc",
+            "pid": 0,
+            "tid": 0,
+            "ts": 1516213472648962,
+            "args": {
+                "GPU_0_bfc": 245640
+            }
+        },
+        {
+            "ph": "C",
+            "cat": "Memory",
+            "name": "GPU_0_bfc",
+            "pid": 0,
+            "tid": 0,
+            "ts": 1516213472648997,
+            "args": {
+                "GPU_0_bfc": 165640
+            }
+        },
+        {
+            "ph": "C",
+            "cat": "Memory",
+            "name": "GPU_0_bfc",
+            "pid": 0,
+            "tid": 0,
+            "ts": 1516213472649000,
+            "args": {
+                "GPU_0_bfc": 245640
+            }
+        },
+        {
+            "ph": "C",
+            "cat": "Memory",
+            "name": "GPU_0_bfc",
+            "pid": 0,
+            "tid": 0,
+            "ts": 1516213472649049,
+            "args": {
+                "GPU_0_bfc": 165640
+            }
+        },
+        {
+            "ph": "C",
+            "cat": "Memory",
+            "name": "GPU_0_bfc",
+            "pid": 0,
+            "tid": 0,
+            "ts": 1516213472649053,
+            "args": {
+                "GPU_0_bfc": 245640
+            }
+        },
+        {
+            "ph": "C",
+            "cat": "Memory",
+            "name": "GPU_0_bfc",
+            "pid": 0,
+            "tid": 0,
+            "ts": 1516213472649097,
+            "args": {
+                "GPU_0_bfc": 165640
+            }
+        },
+        {
+            "ph": "C",
+            "cat": "Memory",
+            "name": "GPU_0_bfc",
+            "pid": 0,
+            "tid": 0,
+            "ts": 1516213472649097,
+            "args": {
+                "GPU_0_bfc": 85640
+            }
+        },
+        {
+            "ph": "C",
+            "cat": "Memory",
+            "name": "GPU_0_bfc",
+            "pid": 0,
+            "tid": 0,
+            "ts": 1516213472649102,
+            "args": {
+                "GPU_0_bfc": 93640
+            }
+        },
+        {
+            "ph": "C",
+            "cat": "Memory",
+            "name": "GPU_0_bfc",
+            "pid": 0,
+            "tid": 0,
+            "ts": 1516213472649184,
+            "args": {
+                "GPU_0_bfc": 13640
+            }
+        },
+        {
+            "ph": "C",
+            "cat": "Memory",
+            "name": "GPU_0_bfc",
+            "pid": 0,
+            "tid": 0,
+            "ts": 1516213472649184,
+            "args": {
+                "GPU_0_bfc": 9640
+            }
+        },
+        {
+            "ph": "C",
+            "cat": "Memory",
+            "name": "GPU_0_bfc",
+            "pid": 0,
+            "tid": 0,
+            "ts": 1516213472649187,
+            "args": {
+                "GPU_0_bfc": 17640
+            }
+        },
+        {
+            "ph": "C",
+            "cat": "Memory",
+            "name": "GPU_0_bfc",
+            "pid": 0,
+            "tid": 0,
+            "ts": 1516213472649224,
+            "args": {
+                "GPU_0_bfc": 9640
+            }
+        },
+        {
+            "ph": "C",
+            "cat": "Memory",
+            "name": "GPU_0_bfc",
+            "pid": 0,
+            "tid": 0,
+            "ts": 1516213472649224,
+            "args": {
+                "GPU_0_bfc": 9600
+            }
+        },
+        {
+            "ph": "C",
+            "cat": "Memory",
+            "name": "GPU_0_bfc",
+            "pid": 0,
+            "tid": 0,
+            "ts": 1516213472649227,
+            "args": {
+                "GPU_0_bfc": 11200
+            }
+        },
+        {
+            "ph": "C",
+            "cat": "Memory",
+            "name": "GPU_0_bfc",
+            "pid": 0,
+            "tid": 0,
+            "ts": 1516213472649275,
+            "args": {
+                "GPU_0_bfc": 3200
+            }
+        },
+        {
+            "ph": "C",
+            "cat": "Memory",
+            "name": "GPU_0_bfc",
+            "pid": 0,
+            "tid": 0,
+            "ts": 1516213472649279,
+            "args": {
+                "GPU_0_bfc": 3400
+            }
+        },
+        {
+            "ph": "C",
+            "cat": "Memory",
+            "name": "GPU_0_bfc",
+            "pid": 0,
+            "tid": 0,
+            "ts": 1516213472649337,
+            "args": {
+                "GPU_0_bfc": 1800
+            }
+        },
+        {
+            "ph": "C",
+            "cat": "Memory",
+            "name": "GPU_0_bfc",
+            "pid": 0,
+            "tid": 0,
+            "ts": 1516213472649337,
+            "args": {
+                "GPU_0_bfc": 200
+            }
+        },
+        {
+            "ph": "C",
+            "cat": "Memory",
+            "name": "GPU_0_bfc",
+            "pid": 0,
+            "tid": 0,
+            "ts": 1516213472649341,
+            "args": {
+                "GPU_0_bfc": 1000
+            }
+        },
+        {
+            "ph": "C",
+            "cat": "Memory",
+            "name": "GPU_0_bfc",
+            "pid": 0,
+            "tid": 0,
+            "ts": 1516213472649388,
+            "args": {
+                "GPU_0_bfc": 800
+            }
+        },
+        {
+            "ph": "C",
+            "cat": "Memory",
+            "name": "GPU_0_bfc",
+            "pid": 0,
+            "tid": 0,
+            "ts": 1516213472649391,
+            "args": {
+                "GPU_0_bfc": 804
+            }
+        },
+        {
+            "ph": "C",
+            "cat": "Memory",
+            "name": "GPU_0_bfc",
+            "pid": 0,
+            "tid": 0,
+            "ts": 1516213472649509,
+            "args": {
+                "GPU_0_bfc": 4
+            }
+        },
+        {
+            "ph": "C",
+            "cat": "Memory",
+            "name": "GPU_0_bfc",
+            "pid": 0,
+            "tid": 0,
+            "ts": 1516213472650054,
+            "args": {
+                "GPU_0_bfc": 0
+            }
+        },
+        {
+            "ph": "C",
+            "cat": "Memory",
+            "name": "cpu_pool",
+            "pid": 0,
+            "tid": 0,
+            "ts": 1516213472645814,
+            "args": {
+                "cpu_pool": 4
+            }
+        },
+        {
+            "ph": "C",
+            "cat": "Memory",
+            "name": "cpu_pool",
+            "pid": 0,
+            "tid": 0,
+            "ts": 1516213472645833,
+            "args": {
+                "cpu_pool": 0
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "NoOp",
+            "pid": 16,
+            "tid": 0,
+            "ts": 1516213472644716,
+            "dur": 88,
+            "args": {
+                "name": "_SOURCE",
+                "op": "NoOp"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "_Arg",
+            "pid": 16,
+            "tid": 0,
+            "ts": 1516213472645000,
+            "dur": 14,
+            "args": {
+                "name": "_arg_dropout_keep_bla_0_0",
+                "op": "_Arg"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "OneShotIterator",
+            "pid": 16,
+            "tid": 0,
+            "ts": 1516213472645046,
+            "dur": 25,
+            "args": {
+                "name": "OneShotIterator",
+                "op": "OneShotIterator"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "OneShotIterator",
+            "pid": 16,
+            "tid": 1,
+            "ts": 1516213472644882,
+            "dur": 236,
+            "args": {
+                "name": "OneShotIterator_1",
+                "op": "OneShotIterator"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Switch",
+            "pid": 16,
+            "tid": 0,
+            "ts": 1516213472645732,
+            "dur": 10,
+            "args": {
+                "name": "cond/IteratorToStringHandle/Switch",
+                "op": "Switch",
+                "input0": "OneShotIterator_1",
+                "input1": "Const/_29"
+            }
+        },
+        {
+            "ph": "s",
+            "cat": "DataFlow",
+            "name": "OneShotIterator_1",
+            "pid": 16,
+            "tid": 1,
+            "ts": 1516213472645118,
+            "id": 15
+        },
+        {
+            "ph": "t",
+            "cat": "DataFlow",
+            "name": "OneShotIterator_1",
+            "pid": 16,
+            "tid": 0,
+            "ts": 1516213472645732,
+            "id": 15
+        },
+        {
+            "ph": "s",
+            "cat": "DataFlow",
+            "name": "Const",
+            "pid": 18,
+            "tid": 0,
+            "ts": 1516213472645150,
+            "id": 16
+        },
+        {
+            "ph": "t",
+            "cat": "DataFlow",
+            "name": "Const",
+            "pid": 16,
+            "tid": 0,
+            "ts": 1516213472645732,
+            "id": 16
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "IteratorToStringHandle",
+            "pid": 16,
+            "tid": 0,
+            "ts": 1516213472645747,
+            "dur": 35,
+            "args": {
+                "name": "cond/IteratorToStringHandle",
+                "op": "IteratorToStringHandle",
+                "input0": "cond/IteratorToStringHandle/Switch:1"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Switch",
+            "pid": 16,
+            "tid": 0,
+            "ts": 1516213472645791,
+            "dur": 17,
+            "args": {
+                "name": "cond/IteratorToStringHandle_1/Switch",
+                "op": "Switch",
+                "input0": "OneShotIterator",
+                "input1": "Const/_29"
+            }
+        },
+        {
+            "ph": "s",
+            "cat": "DataFlow",
+            "name": "Const",
+            "pid": 18,
+            "tid": 0,
+            "ts": 1516213472645150,
+            "id": 17
+        },
+        {
+            "ph": "t",
+            "cat": "DataFlow",
+            "name": "Const",
+            "pid": 16,
+            "tid": 0,
+            "ts": 1516213472645791,
+            "id": 17
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "IteratorFromStringHandle",
+            "pid": 16,
+            "tid": 0,
+            "ts": 1516213472645851,
+            "dur": 23,
+            "args": {
+                "name": "IteratorFromStringHandle",
+                "op": "IteratorFromStringHandle",
+                "input0": "cond/Merge/_35"
+            }
+        },
+        {
+            "ph": "s",
+            "cat": "DataFlow",
+            "name": "cond/Merge",
+            "pid": 18,
+            "tid": 0,
+            "ts": 1516213472645833,
+            "id": 18
+        },
+        {
+            "ph": "t",
+            "cat": "DataFlow",
+            "name": "cond/Merge",
+            "pid": 16,
+            "tid": 0,
+            "ts": 1516213472645851,
+            "id": 18
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "IteratorGetNext",
+            "pid": 16,
+            "tid": 0,
+            "ts": 1516213472645876,
+            "dur": 1764,
+            "args": {
+                "name": "IteratorGetNext",
+                "op": "IteratorGetNext",
+                "input0": "IteratorFromStringHandle"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "_Retval",
+            "pid": 16,
+            "tid": 0,
+            "ts": 1516213472650048,
+            "dur": 7,
+            "args": {
+                "name": "_retval_train_accuracy/Mean_0_0",
+                "op": "_Retval",
+                "input0": "train_accuracy/Mean/_43"
+            }
+        },
+        {
+            "ph": "s",
+            "cat": "DataFlow",
+            "name": "train_accuracy/Mean",
+            "pid": 18,
+            "tid": 0,
+            "ts": 1516213472649510,
+            "id": 19
+        },
+        {
+            "ph": "t",
+            "cat": "DataFlow",
+            "name": "train_accuracy/Mean",
+            "pid": 16,
+            "tid": 0,
+            "ts": 1516213472650048,
+            "id": 19
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "NoOp",
+            "pid": 18,
+            "tid": 0,
+            "ts": 1516213472644759,
+            "dur": 97,
+            "args": {
+                "name": "_SOURCE",
+                "op": "NoOp"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "VariableV2",
+            "pid": 18,
+            "tid": 0,
+            "ts": 1516213472644885,
+            "dur": 121,
+            "args": {
+                "name": "partitions/partition_0/hidden/hidden_0/dense/kernel",
+                "op": "VariableV2"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "VariableV2",
+            "pid": 18,
+            "tid": 0,
+            "ts": 1516213472645011,
+            "dur": 18,
+            "args": {
+                "name": "partitions/partition_0/hidden/hidden_0/dense/bias",
+                "op": "VariableV2"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "VariableV2",
+            "pid": 18,
+            "tid": 0,
+            "ts": 1516213472645032,
+            "dur": 11,
+            "args": {
+                "name": "partitions/partition_0/hidden/hidden_1/dense/kernel",
+                "op": "VariableV2"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "VariableV2",
+            "pid": 18,
+            "tid": 0,
+            "ts": 1516213472645047,
+            "dur": 11,
+            "args": {
+                "name": "partitions/partition_0/hidden/hidden_1/dense/bias",
+                "op": "VariableV2"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "VariableV2",
+            "pid": 18,
+            "tid": 0,
+            "ts": 1516213472645062,
+            "dur": 11,
+            "args": {
+                "name": "partitions/partition_0/hidden/hidden_2/dense/kernel",
+                "op": "VariableV2"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "VariableV2",
+            "pid": 18,
+            "tid": 0,
+            "ts": 1516213472645082,
+            "dur": 9,
+            "args": {
+                "name": "partitions/partition_0/hidden/hidden_2/dense/bias",
+                "op": "VariableV2"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Const",
+            "pid": 18,
+            "tid": 0,
+            "ts": 1516213472645094,
+            "dur": 8,
+            "args": {
+                "name": "partitions/partition_0/dropout/Shape",
+                "op": "Const"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Const",
+            "pid": 18,
+            "tid": 0,
+            "ts": 1516213472645104,
+            "dur": 4,
+            "args": {
+                "name": "partitions/partition_0/dropout/random_uniform/sub",
+                "op": "Const"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Const",
+            "pid": 18,
+            "tid": 0,
+            "ts": 1516213472645111,
+            "dur": 9,
+            "args": {
+                "name": "partitions/partition_0/dropout/random_uniform/min",
+                "op": "Const"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "VariableV2",
+            "pid": 18,
+            "tid": 0,
+            "ts": 1516213472645123,
+            "dur": 7,
+            "args": {
+                "name": "partitions/partition_0/output_0/dense/kernel",
+                "op": "VariableV2"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "VariableV2",
+            "pid": 18,
+            "tid": 0,
+            "ts": 1516213472645132,
+            "dur": 7,
+            "args": {
+                "name": "partitions/partition_0/output_0/dense/bias",
+                "op": "VariableV2"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Const",
+            "pid": 18,
+            "tid": 0,
+            "ts": 1516213472645140,
+            "dur": 5,
+            "args": {
+                "name": "train_accuracy/correct_prediction/ArgMax/dimension",
+                "op": "Const"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Const",
+            "pid": 18,
+            "tid": 0,
+            "ts": 1516213472645146,
+            "dur": 4,
+            "args": {
+                "name": "Const",
+                "op": "Const"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Const",
+            "pid": 18,
+            "tid": 0,
+            "ts": 1516213472645152,
+            "dur": 4,
+            "args": {
+                "name": "train_accuracy/Const",
+                "op": "Const"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Identity",
+            "pid": 18,
+            "tid": 0,
+            "ts": 1516213472645158,
+            "dur": 6,
+            "args": {
+                "name": "partitions/partition_0/hidden/hidden_0/dense/kernel/read",
+                "op": "Identity",
+                "input0": "partitions/partition_0/hidden/hidden_0/dense/kernel"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Identity",
+            "pid": 18,
+            "tid": 0,
+            "ts": 1516213472645166,
+            "dur": 5,
+            "args": {
+                "name": "partitions/partition_0/hidden/hidden_0/dense/bias/read",
+                "op": "Identity",
+                "input0": "partitions/partition_0/hidden/hidden_0/dense/bias"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Identity",
+            "pid": 18,
+            "tid": 0,
+            "ts": 1516213472645174,
+            "dur": 5,
+            "args": {
+                "name": "partitions/partition_0/hidden/hidden_1/dense/kernel/read",
+                "op": "Identity",
+                "input0": "partitions/partition_0/hidden/hidden_1/dense/kernel"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Identity",
+            "pid": 18,
+            "tid": 0,
+            "ts": 1516213472645182,
+            "dur": 4,
+            "args": {
+                "name": "partitions/partition_0/hidden/hidden_1/dense/bias/read",
+                "op": "Identity",
+                "input0": "partitions/partition_0/hidden/hidden_1/dense/bias"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Identity",
+            "pid": 18,
+            "tid": 0,
+            "ts": 1516213472645188,
+            "dur": 4,
+            "args": {
+                "name": "partitions/partition_0/hidden/hidden_2/dense/kernel/read",
+                "op": "Identity",
+                "input0": "partitions/partition_0/hidden/hidden_2/dense/kernel"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Identity",
+            "pid": 18,
+            "tid": 0,
+            "ts": 1516213472645193,
+            "dur": 5,
+            "args": {
+                "name": "partitions/partition_0/hidden/hidden_2/dense/bias/read",
+                "op": "Identity",
+                "input0": "partitions/partition_0/hidden/hidden_2/dense/bias"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "RandomUniform",
+            "pid": 18,
+            "tid": 0,
+            "ts": 1516213472645199,
+            "dur": 213,
+            "args": {
+                "name": "partitions/partition_0/dropout/random_uniform/RandomUniform",
+                "op": "RandomUniform",
+                "input0": "partitions/partition_0/dropout/Shape"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Identity",
+            "pid": 18,
+            "tid": 0,
+            "ts": 1516213472645415,
+            "dur": 7,
+            "args": {
+                "name": "partitions/partition_0/output_0/dense/kernel/read",
+                "op": "Identity",
+                "input0": "partitions/partition_0/output_0/dense/kernel"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Identity",
+            "pid": 18,
+            "tid": 0,
+            "ts": 1516213472645424,
+            "dur": 4,
+            "args": {
+                "name": "partitions/partition_0/output_0/dense/bias/read",
+                "op": "Identity",
+                "input0": "partitions/partition_0/output_0/dense/bias"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Mul",
+            "pid": 18,
+            "tid": 0,
+            "ts": 1516213472645651,
+            "dur": 139,
+            "args": {
+                "name": "partitions/partition_0/dropout/random_uniform/mul",
+                "op": "Mul",
+                "input0": "partitions/partition_0/dropout/random_uniform/RandomUniform",
+                "input1": "partitions/partition_0/dropout/random_uniform/sub"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Merge",
+            "pid": 18,
+            "tid": 0,
+            "ts": 1516213472645814,
+            "dur": 19,
+            "args": {
+                "name": "cond/Merge",
+                "op": "Merge",
+                "input0": "cond/IteratorToStringHandle_1/_31",
+                "input1": "cond/IteratorToStringHandle/_33"
+            }
+        },
+        {
+            "ph": "s",
+            "cat": "DataFlow",
+            "name": "cond/IteratorToStringHandle",
+            "pid": 16,
+            "tid": 0,
+            "ts": 1516213472645782,
+            "id": 20
+        },
+        {
+            "ph": "t",
+            "cat": "DataFlow",
+            "name": "cond/IteratorToStringHandle",
+            "pid": 18,
+            "tid": 0,
+            "ts": 1516213472645814,
+            "id": 20
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Add",
+            "pid": 18,
+            "tid": 1,
+            "ts": 1516213472645795,
+            "dur": 55,
+            "args": {
+                "name": "partitions/partition_0/dropout/random_uniform",
+                "op": "Add",
+                "input0": "partitions/partition_0/dropout/random_uniform/mul",
+                "input1": "partitions/partition_0/dropout/random_uniform/min"
+            }
+        },
+        {
+            "ph": "s",
+            "cat": "DataFlow",
+            "name": "partitions/partition_0/dropout/random_uniform/mul",
+            "pid": 18,
+            "tid": 0,
+            "ts": 1516213472645790,
+            "id": 21
+        },
+        {
+            "ph": "t",
+            "cat": "DataFlow",
+            "name": "partitions/partition_0/dropout/random_uniform/mul",
+            "pid": 18,
+            "tid": 1,
+            "ts": 1516213472645795,
+            "id": 21
+        },
+        {
+            "ph": "s",
+            "cat": "DataFlow",
+            "name": "partitions/partition_0/dropout/random_uniform/min",
+            "pid": 18,
+            "tid": 0,
+            "ts": 1516213472645120,
+            "id": 22
+        },
+        {
+            "ph": "t",
+            "cat": "DataFlow",
+            "name": "partitions/partition_0/dropout/random_uniform/min",
+            "pid": 18,
+            "tid": 1,
+            "ts": 1516213472645795,
+            "id": 22
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Add",
+            "pid": 18,
+            "tid": 0,
+            "ts": 1516213472645855,
+            "dur": 44,
+            "args": {
+                "name": "partitions/partition_0/dropout/add",
+                "op": "Add",
+                "input0": "_arg_dropout_keep_bla_0_0/_39",
+                "input1": "partitions/partition_0/dropout/random_uniform"
+            }
+        },
+        {
+            "ph": "s",
+            "cat": "DataFlow",
+            "name": "_arg_dropout_keep_bla_0_0",
+            "pid": 16,
+            "tid": 0,
+            "ts": 1516213472645014,
+            "id": 23
+        },
+        {
+            "ph": "t",
+            "cat": "DataFlow",
+            "name": "_arg_dropout_keep_bla_0_0",
+            "pid": 18,
+            "tid": 0,
+            "ts": 1516213472645855,
+            "id": 23
+        },
+        {
+            "ph": "s",
+            "cat": "DataFlow",
+            "name": "partitions/partition_0/dropout/random_uniform",
+            "pid": 18,
+            "tid": 1,
+            "ts": 1516213472645850,
+            "id": 24
+        },
+        {
+            "ph": "t",
+            "cat": "DataFlow",
+            "name": "partitions/partition_0/dropout/random_uniform",
+            "pid": 18,
+            "tid": 0,
+            "ts": 1516213472645855,
+            "id": 24
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Floor",
+            "pid": 18,
+            "tid": 0,
+            "ts": 1516213472645902,
+            "dur": 44,
+            "args": {
+                "name": "partitions/partition_0/dropout/Floor",
+                "op": "Floor",
+                "input0": "partitions/partition_0/dropout/add"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "ArgMax",
+            "pid": 18,
+            "tid": 0,
+            "ts": 1516213472648407,
+            "dur": 141,
+            "args": {
+                "name": "train_accuracy/correct_prediction/ArgMax_1",
+                "op": "ArgMax",
+                "input0": "IteratorGetNext/_37",
+                "input1": "train_accuracy/correct_prediction/ArgMax/dimension"
+            }
+        },
+        {
+            "ph": "s",
+            "cat": "DataFlow",
+            "name": "IteratorGetNext",
+            "pid": 16,
+            "tid": 0,
+            "ts": 1516213472647640,
+            "id": 25
+        },
+        {
+            "ph": "t",
+            "cat": "DataFlow",
+            "name": "IteratorGetNext",
+            "pid": 18,
+            "tid": 0,
+            "ts": 1516213472648407,
+            "id": 25
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "MatMul",
+            "pid": 18,
+            "tid": 1,
+            "ts": 1516213472648364,
+            "dur": 221,
+            "args": {
+                "name": "partitions/partition_0/hidden/hidden_0/dense/MatMul",
+                "op": "MatMul",
+                "input0": "IteratorGetNext/_41",
+                "input1": "partitions/partition_0/hidden/hidden_0/dense/kernel/read"
+            }
+        },
+        {
+            "ph": "s",
+            "cat": "DataFlow",
+            "name": "IteratorGetNext",
+            "pid": 16,
+            "tid": 0,
+            "ts": 1516213472647640,
+            "id": 26
+        },
+        {
+            "ph": "t",
+            "cat": "DataFlow",
+            "name": "IteratorGetNext",
+            "pid": 18,
+            "tid": 1,
+            "ts": 1516213472648364,
+            "id": 26
+        },
+        {
+            "ph": "s",
+            "cat": "DataFlow",
+            "name": "partitions/partition_0/hidden/hidden_0/dense/kernel/read",
+            "pid": 18,
+            "tid": 0,
+            "ts": 1516213472645164,
+            "id": 27
+        },
+        {
+            "ph": "t",
+            "cat": "DataFlow",
+            "name": "partitions/partition_0/hidden/hidden_0/dense/kernel/read",
+            "pid": 18,
+            "tid": 1,
+            "ts": 1516213472648364,
+            "id": 27
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "BiasAdd",
+            "pid": 18,
+            "tid": 0,
+            "ts": 1516213472648591,
+            "dur": 55,
+            "args": {
+                "name": "partitions/partition_0/hidden/hidden_0/dense/BiasAdd",
+                "op": "BiasAdd",
+                "input0": "partitions/partition_0/hidden/hidden_0/dense/MatMul",
+                "input1": "partitions/partition_0/hidden/hidden_0/dense/bias/read"
+            }
+        },
+        {
+            "ph": "s",
+            "cat": "DataFlow",
+            "name": "partitions/partition_0/hidden/hidden_0/dense/MatMul",
+            "pid": 18,
+            "tid": 1,
+            "ts": 1516213472648585,
+            "id": 28
+        },
+        {
+            "ph": "t",
+            "cat": "DataFlow",
+            "name": "partitions/partition_0/hidden/hidden_0/dense/MatMul",
+            "pid": 18,
+            "tid": 0,
+            "ts": 1516213472648591,
+            "id": 28
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Relu",
+            "pid": 18,
+            "tid": 0,
+            "ts": 1516213472648649,
+            "dur": 47,
+            "args": {
+                "name": "partitions/partition_0/hidden/hidden_0/dense/Relu",
+                "op": "Relu",
+                "input0": "partitions/partition_0/hidden/hidden_0/dense/BiasAdd"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "MatMul",
+            "pid": 18,
+            "tid": 0,
+            "ts": 1516213472648700,
+            "dur": 64,
+            "args": {
+                "name": "partitions/partition_0/hidden/hidden_1/dense/MatMul",
+                "op": "MatMul",
+                "input0": "partitions/partition_0/hidden/hidden_0/dense/Relu",
+                "input1": "partitions/partition_0/hidden/hidden_1/dense/kernel/read"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "BiasAdd",
+            "pid": 18,
+            "tid": 0,
+            "ts": 1516213472648782,
+            "dur": 39,
+            "args": {
+                "name": "partitions/partition_0/hidden/hidden_1/dense/BiasAdd",
+                "op": "BiasAdd",
+                "input0": "partitions/partition_0/hidden/hidden_1/dense/MatMul",
+                "input1": "partitions/partition_0/hidden/hidden_1/dense/bias/read"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Relu",
+            "pid": 18,
+            "tid": 0,
+            "ts": 1516213472648825,
+            "dur": 36,
+            "args": {
+                "name": "partitions/partition_0/hidden/hidden_1/dense/Relu",
+                "op": "Relu",
+                "input0": "partitions/partition_0/hidden/hidden_1/dense/BiasAdd"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "MatMul",
+            "pid": 18,
+            "tid": 0,
+            "ts": 1516213472648864,
+            "dur": 55,
+            "args": {
+                "name": "partitions/partition_0/hidden/hidden_2/dense/MatMul",
+                "op": "MatMul",
+                "input0": "partitions/partition_0/hidden/hidden_1/dense/Relu",
+                "input1": "partitions/partition_0/hidden/hidden_2/dense/kernel/read"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "BiasAdd",
+            "pid": 18,
+            "tid": 0,
+            "ts": 1516213472648923,
+            "dur": 36,
+            "args": {
+                "name": "partitions/partition_0/hidden/hidden_2/dense/BiasAdd",
+                "op": "BiasAdd",
+                "input0": "partitions/partition_0/hidden/hidden_2/dense/MatMul",
+                "input1": "partitions/partition_0/hidden/hidden_2/dense/bias/read"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Relu",
+            "pid": 18,
+            "tid": 0,
+            "ts": 1516213472648962,
+            "dur": 36,
+            "args": {
+                "name": "partitions/partition_0/hidden/hidden_2/dense/Relu",
+                "op": "Relu",
+                "input0": "partitions/partition_0/hidden/hidden_2/dense/BiasAdd"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "RealDiv",
+            "pid": 18,
+            "tid": 0,
+            "ts": 1516213472649000,
+            "dur": 50,
+            "args": {
+                "name": "partitions/partition_0/dropout/div",
+                "op": "RealDiv",
+                "input0": "partitions/partition_0/hidden/hidden_2/dense/Relu",
+                "input1": "_arg_dropout_keep_bla_0_0/_39"
+            }
+        },
+        {
+            "ph": "s",
+            "cat": "DataFlow",
+            "name": "_arg_dropout_keep_bla_0_0",
+            "pid": 16,
+            "tid": 0,
+            "ts": 1516213472645014,
+            "id": 29
+        },
+        {
+            "ph": "t",
+            "cat": "DataFlow",
+            "name": "_arg_dropout_keep_bla_0_0",
+            "pid": 18,
+            "tid": 0,
+            "ts": 1516213472649000,
+            "id": 29
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Mul",
+            "pid": 18,
+            "tid": 0,
+            "ts": 1516213472649053,
+            "dur": 45,
+            "args": {
+                "name": "partitions/partition_0/dropout/mul",
+                "op": "Mul",
+                "input0": "partitions/partition_0/dropout/div",
+                "input1": "partitions/partition_0/dropout/Floor"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "MatMul",
+            "pid": 18,
+            "tid": 0,
+            "ts": 1516213472649102,
+            "dur": 83,
+            "args": {
+                "name": "partitions/partition_0/output_0/dense/MatMul",
+                "op": "MatMul",
+                "input0": "partitions/partition_0/dropout/mul",
+                "input1": "partitions/partition_0/output_0/dense/kernel/read"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "BiasAdd",
+            "pid": 18,
+            "tid": 0,
+            "ts": 1516213472649187,
+            "dur": 38,
+            "args": {
+                "name": "partitions/partition_0/output_0/dense/BiasAdd",
+                "op": "BiasAdd",
+                "input0": "partitions/partition_0/output_0/dense/MatMul",
+                "input1": "partitions/partition_0/output_0/dense/bias/read"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "ArgMax",
+            "pid": 18,
+            "tid": 0,
+            "ts": 1516213472649227,
+            "dur": 49,
+            "args": {
+                "name": "train_accuracy/correct_prediction/ArgMax",
+                "op": "ArgMax",
+                "input0": "partitions/partition_0/output_0/dense/BiasAdd",
+                "input1": "train_accuracy/correct_prediction/ArgMax/dimension"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Equal",
+            "pid": 18,
+            "tid": 0,
+            "ts": 1516213472649279,
+            "dur": 59,
+            "args": {
+                "name": "train_accuracy/correct_prediction/Equal",
+                "op": "Equal",
+                "input0": "train_accuracy/correct_prediction/ArgMax",
+                "input1": "train_accuracy/correct_prediction/ArgMax_1"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Cast",
+            "pid": 18,
+            "tid": 0,
+            "ts": 1516213472649341,
+            "dur": 48,
+            "args": {
+                "name": "train_accuracy/Cast",
+                "op": "Cast",
+                "input0": "train_accuracy/correct_prediction/Equal"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Mean",
+            "pid": 18,
+            "tid": 0,
+            "ts": 1516213472649391,
+            "dur": 119,
+            "args": {
+                "name": "train_accuracy/Mean",
+                "op": "Mean",
+                "input0": "train_accuracy/Cast",
+                "input1": "train_accuracy/Const"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "RandomUniform",
+            "pid": 20,
+            "tid": 0,
+            "ts": 1516213472645656,
+            "dur": 21,
+            "args": {
+                "name": "partitions/partition_0/dropout/random_uniform/RandomUniform",
+                "op": "RandomUniform"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Mul",
+            "pid": 20,
+            "tid": 0,
+            "ts": 1516213472647972,
+            "dur": 5,
+            "args": {
+                "name": "partitions/partition_0/dropout/random_uniform/mul",
+                "op": "Mul"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Add",
+            "pid": 20,
+            "tid": 0,
+            "ts": 1516213472647980,
+            "dur": 4,
+            "args": {
+                "name": "partitions/partition_0/dropout/random_uniform",
+                "op": "Add"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Add",
+            "pid": 20,
+            "tid": 0,
+            "ts": 1516213472647988,
+            "dur": 4,
+            "args": {
+                "name": "partitions/partition_0/dropout/add",
+                "op": "Add"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Floor",
+            "pid": 20,
+            "tid": 0,
+            "ts": 1516213472647995,
+            "dur": 4,
+            "args": {
+                "name": "partitions/partition_0/dropout/Floor",
+                "op": "Floor"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "ArgMax",
+            "pid": 20,
+            "tid": 0,
+            "ts": 1516213472649579,
+            "dur": 9,
+            "args": {
+                "name": "train_accuracy/correct_prediction/ArgMax_1",
+                "op": "ArgMax"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "MatMul",
+            "pid": 20,
+            "tid": 0,
+            "ts": 1516213472649595,
+            "dur": 126,
+            "args": {
+                "name": "partitions/partition_0/hidden/hidden_0/dense/MatMul",
+                "op": "MatMul"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "BiasAdd",
+            "pid": 20,
+            "tid": 0,
+            "ts": 1516213472649728,
+            "dur": 10,
+            "args": {
+                "name": "partitions/partition_0/hidden/hidden_0/dense/BiasAdd",
+                "op": "BiasAdd"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Relu",
+            "pid": 20,
+            "tid": 0,
+            "ts": 1516213472649740,
+            "dur": 5,
+            "args": {
+                "name": "partitions/partition_0/hidden/hidden_0/dense/Relu",
+                "op": "Relu"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "MatMul",
+            "pid": 20,
+            "tid": 0,
+            "ts": 1516213472649751,
+            "dur": 39,
+            "args": {
+                "name": "partitions/partition_0/hidden/hidden_1/dense/MatMul",
+                "op": "MatMul"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "BiasAdd",
+            "pid": 20,
+            "tid": 0,
+            "ts": 1516213472649796,
+            "dur": 5,
+            "args": {
+                "name": "partitions/partition_0/hidden/hidden_1/dense/BiasAdd",
+                "op": "BiasAdd"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Relu",
+            "pid": 20,
+            "tid": 0,
+            "ts": 1516213472649807,
+            "dur": 4,
+            "args": {
+                "name": "partitions/partition_0/hidden/hidden_1/dense/Relu",
+                "op": "Relu"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "MatMul",
+            "pid": 20,
+            "tid": 0,
+            "ts": 1516213472649818,
+            "dur": 24,
+            "args": {
+                "name": "partitions/partition_0/hidden/hidden_2/dense/MatMul",
+                "op": "MatMul"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "BiasAdd",
+            "pid": 20,
+            "tid": 0,
+            "ts": 1516213472649847,
+            "dur": 7,
+            "args": {
+                "name": "partitions/partition_0/hidden/hidden_2/dense/BiasAdd",
+                "op": "BiasAdd"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Relu",
+            "pid": 20,
+            "tid": 0,
+            "ts": 1516213472649859,
+            "dur": 3,
+            "args": {
+                "name": "partitions/partition_0/hidden/hidden_2/dense/Relu",
+                "op": "Relu"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "RealDiv",
+            "pid": 20,
+            "tid": 0,
+            "ts": 1516213472649867,
+            "dur": 10,
+            "args": {
+                "name": "partitions/partition_0/dropout/div",
+                "op": "RealDiv"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Mul",
+            "pid": 20,
+            "tid": 0,
+            "ts": 1516213472649882,
+            "dur": 10,
+            "args": {
+                "name": "partitions/partition_0/dropout/mul",
+                "op": "Mul"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "MatMul",
+            "pid": 20,
+            "tid": 0,
+            "ts": 1516213472649895,
+            "dur": 16,
+            "args": {
+                "name": "partitions/partition_0/output_0/dense/MatMul",
+                "op": "MatMul"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "BiasAdd",
+            "pid": 20,
+            "tid": 0,
+            "ts": 1516213472649914,
+            "dur": 3,
+            "args": {
+                "name": "partitions/partition_0/output_0/dense/BiasAdd",
+                "op": "BiasAdd"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "ArgMax",
+            "pid": 20,
+            "tid": 0,
+            "ts": 1516213472649921,
+            "dur": 8,
+            "args": {
+                "name": "train_accuracy/correct_prediction/ArgMax",
+                "op": "ArgMax"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Equal",
+            "pid": 20,
+            "tid": 0,
+            "ts": 1516213472649934,
+            "dur": 4,
+            "args": {
+                "name": "train_accuracy/correct_prediction/Equal",
+                "op": "Equal"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Cast",
+            "pid": 20,
+            "tid": 0,
+            "ts": 1516213472649941,
+            "dur": 3,
+            "args": {
+                "name": "train_accuracy/Cast",
+                "op": "Cast"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Mean",
+            "pid": 20,
+            "tid": 0,
+            "ts": 1516213472649948,
+            "dur": 5,
+            "args": {
+                "name": "train_accuracy/Mean",
+                "op": "Mean"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "RandomUniform",
+            "pid": 22,
+            "tid": 0,
+            "ts": 1516213472645656,
+            "dur": 21,
+            "args": {
+                "name": "partitions/partition_0/dropout/random_uniform/RandomUniform",
+                "op": "RandomUniform"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Mul",
+            "pid": 22,
+            "tid": 0,
+            "ts": 1516213472647972,
+            "dur": 5,
+            "args": {
+                "name": "partitions/partition_0/dropout/random_uniform/mul",
+                "op": "Mul"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Add",
+            "pid": 22,
+            "tid": 0,
+            "ts": 1516213472647980,
+            "dur": 4,
+            "args": {
+                "name": "partitions/partition_0/dropout/random_uniform",
+                "op": "Add"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Add",
+            "pid": 22,
+            "tid": 0,
+            "ts": 1516213472647988,
+            "dur": 4,
+            "args": {
+                "name": "partitions/partition_0/dropout/add",
+                "op": "Add"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Floor",
+            "pid": 22,
+            "tid": 0,
+            "ts": 1516213472647995,
+            "dur": 4,
+            "args": {
+                "name": "partitions/partition_0/dropout/Floor",
+                "op": "Floor"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "ArgMax",
+            "pid": 22,
+            "tid": 0,
+            "ts": 1516213472649579,
+            "dur": 9,
+            "args": {
+                "name": "train_accuracy/correct_prediction/ArgMax_1",
+                "op": "ArgMax"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "MatMul",
+            "pid": 22,
+            "tid": 0,
+            "ts": 1516213472649595,
+            "dur": 126,
+            "args": {
+                "name": "partitions/partition_0/hidden/hidden_0/dense/MatMul",
+                "op": "MatMul"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "BiasAdd",
+            "pid": 22,
+            "tid": 0,
+            "ts": 1516213472649728,
+            "dur": 10,
+            "args": {
+                "name": "partitions/partition_0/hidden/hidden_0/dense/BiasAdd",
+                "op": "BiasAdd"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Relu",
+            "pid": 22,
+            "tid": 0,
+            "ts": 1516213472649740,
+            "dur": 5,
+            "args": {
+                "name": "partitions/partition_0/hidden/hidden_0/dense/Relu",
+                "op": "Relu"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "MatMul",
+            "pid": 22,
+            "tid": 0,
+            "ts": 1516213472649751,
+            "dur": 39,
+            "args": {
+                "name": "partitions/partition_0/hidden/hidden_1/dense/MatMul",
+                "op": "MatMul"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "BiasAdd",
+            "pid": 22,
+            "tid": 0,
+            "ts": 1516213472649796,
+            "dur": 5,
+            "args": {
+                "name": "partitions/partition_0/hidden/hidden_1/dense/BiasAdd",
+                "op": "BiasAdd"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Relu",
+            "pid": 22,
+            "tid": 0,
+            "ts": 1516213472649807,
+            "dur": 4,
+            "args": {
+                "name": "partitions/partition_0/hidden/hidden_1/dense/Relu",
+                "op": "Relu"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "MatMul",
+            "pid": 22,
+            "tid": 0,
+            "ts": 1516213472649818,
+            "dur": 24,
+            "args": {
+                "name": "partitions/partition_0/hidden/hidden_2/dense/MatMul",
+                "op": "MatMul"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "BiasAdd",
+            "pid": 22,
+            "tid": 0,
+            "ts": 1516213472649847,
+            "dur": 7,
+            "args": {
+                "name": "partitions/partition_0/hidden/hidden_2/dense/BiasAdd",
+                "op": "BiasAdd"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Relu",
+            "pid": 22,
+            "tid": 0,
+            "ts": 1516213472649859,
+            "dur": 3,
+            "args": {
+                "name": "partitions/partition_0/hidden/hidden_2/dense/Relu",
+                "op": "Relu"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "RealDiv",
+            "pid": 22,
+            "tid": 0,
+            "ts": 1516213472649867,
+            "dur": 10,
+            "args": {
+                "name": "partitions/partition_0/dropout/div",
+                "op": "RealDiv"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Mul",
+            "pid": 22,
+            "tid": 0,
+            "ts": 1516213472649882,
+            "dur": 10,
+            "args": {
+                "name": "partitions/partition_0/dropout/mul",
+                "op": "Mul"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "MatMul",
+            "pid": 22,
+            "tid": 0,
+            "ts": 1516213472649895,
+            "dur": 16,
+            "args": {
+                "name": "partitions/partition_0/output_0/dense/MatMul",
+                "op": "MatMul"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "BiasAdd",
+            "pid": 22,
+            "tid": 0,
+            "ts": 1516213472649914,
+            "dur": 3,
+            "args": {
+                "name": "partitions/partition_0/output_0/dense/BiasAdd",
+                "op": "BiasAdd"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "ArgMax",
+            "pid": 22,
+            "tid": 0,
+            "ts": 1516213472649921,
+            "dur": 8,
+            "args": {
+                "name": "train_accuracy/correct_prediction/ArgMax",
+                "op": "ArgMax"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Equal",
+            "pid": 22,
+            "tid": 0,
+            "ts": 1516213472649934,
+            "dur": 4,
+            "args": {
+                "name": "train_accuracy/correct_prediction/Equal",
+                "op": "Equal"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Cast",
+            "pid": 22,
+            "tid": 0,
+            "ts": 1516213472649941,
+            "dur": 3,
+            "args": {
+                "name": "train_accuracy/Cast",
+                "op": "Cast"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "Mean",
+            "pid": 22,
+            "tid": 0,
+            "ts": 1516213472649948,
+            "dur": 5,
+            "args": {
+                "name": "train_accuracy/Mean",
+                "op": "Mean"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "MEMCPYHtoD",
+            "pid": 24,
+            "tid": 0,
+            "ts": 1516213472645329,
+            "dur": 1,
+            "args": {
+                "name": "edge_76__arg_dropout_keep_bla_0_0",
+                "op": "MEMCPYHtoD"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "MEMCPYDtoH",
+            "pid": 24,
+            "tid": 0,
+            "ts": 1516213472645679,
+            "dur": 2,
+            "args": {
+                "name": "edge_3_Const",
+                "op": "MEMCPYDtoH"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "MEMCPYHtoD",
+            "pid": 24,
+            "tid": 0,
+            "ts": 1516213472648005,
+            "dur": 238,
+            "args": {
+                "name": "edge_29_IteratorGetNext",
+                "op": "MEMCPYHtoD"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "MEMCPYHtoD",
+            "pid": 24,
+            "tid": 0,
+            "ts": 1516213472648254,
+            "dur": 2,
+            "args": {
+                "name": "edge_12_IteratorGetNext",
+                "op": "MEMCPYHtoD"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "MEMCPYDtoH",
+            "pid": 24,
+            "tid": 0,
+            "ts": 1516213472649953,
+            "dur": 1,
+            "args": {
+                "name": "edge_78_train_accuracy/Mean",
+                "op": "MEMCPYDtoH"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "MEMCPYHtoD",
+            "pid": 26,
+            "tid": 0,
+            "ts": 1516213472645329,
+            "dur": 1,
+            "args": {
+                "name": "edge_76__arg_dropout_keep_bla_0_0",
+                "op": "MEMCPYHtoD"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "MEMCPYHtoD",
+            "pid": 26,
+            "tid": 0,
+            "ts": 1516213472648005,
+            "dur": 238,
+            "args": {
+                "name": "edge_29_IteratorGetNext",
+                "op": "MEMCPYHtoD"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "MEMCPYHtoD",
+            "pid": 26,
+            "tid": 0,
+            "ts": 1516213472648254,
+            "dur": 2,
+            "args": {
+                "name": "edge_12_IteratorGetNext",
+                "op": "MEMCPYHtoD"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "MEMCPYDtoH",
+            "pid": 28,
+            "tid": 0,
+            "ts": 1516213472645679,
+            "dur": 2,
+            "args": {
+                "name": "edge_3_Const",
+                "op": "MEMCPYDtoH"
+            }
+        },
+        {
+            "ph": "X",
+            "cat": "Op",
+            "name": "MEMCPYDtoH",
+            "pid": 28,
+            "tid": 0,
+            "ts": 1516213472649953,
+            "dur": 1,
+            "args": {
+                "name": "edge_78_train_accuracy/Mean",
+                "op": "MEMCPYDtoH"
+            }
+        }
+    ]
+}

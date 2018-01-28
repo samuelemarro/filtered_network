@@ -1,0 +1,73 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>badf1da7-e333-46b5-8a63-dc67c1ee1fc8</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <StartupFile>PartitionExecution.py</StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <Name>PartitionExecution</Name>
+    <RootNamespace>PartitionExecution</RootNamespace>
+    <IsWindowsApplication>False</IsWindowsApplication>
+    <LaunchProvider>Standard Python launcher</LaunchProvider>
+    <CommandLineArguments>
+    </CommandLineArguments>
+    <EnableNativeCodeDebugging>False</EnableNativeCodeDebugging>
+    <InterpreterArguments>
+    </InterpreterArguments>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="partition_execution\core.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="partition_execution\models\data.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="partition_execution\models\masks.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="partition_execution\models\network_definitions.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="partition_execution\models\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="partition_execution\partition.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PartitionExecution.py" />
+    <Compile Include="partition_execution\partition_layer.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="partition_execution\testing.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="partition_execution\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="partition_execution\models\" />
+    <Folder Include="partition_execution\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+  <!-- Uncomment the CoreCompile target to enable the Build command in
+       Visual Studio and specify your pre- and post-build commands in
+       the BeforeBuild and AfterBuild targets below. -->
+  <!--<Target Name="CoreCompile" />-->
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+</Project>
