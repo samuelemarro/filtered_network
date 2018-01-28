@@ -65,7 +65,7 @@ class PartitionHelper:
     def use_output(self, last):
         return self.use_cutoff or last
 
-    def add_checkpoint(self, input, output, last, mask=None, train_maker=None):
+    def add_checkpoint(self, input, output, last, mask=None):
         if self.use_cutoff:
             self.add_trainable_variables()
             if last:

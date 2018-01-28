@@ -49,7 +49,7 @@ class FeedForwardNetwork:
             if use_cutoff and not last:
                 mask = self.mask_maker(output, self.mask_parameters[i])
 
-            input = helper.add_checkpoint(input, output, last, mask=mask, train_maker=train_op)
+            input = helper.add_checkpoint(input, output, last, mask=mask)
 
         final_output = helper.reordered_output() if use_cutoff else output
         final_accuracy = None
