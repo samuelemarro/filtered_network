@@ -98,7 +98,7 @@ def compute_variable_dict(session, variables):
         variable_dict[variables[i].name] = variable_values[i]
     return variable_dict
 
-def prepare_inference_network(session, inference_variables, variable_dict):
+def transfer_variables(session, inference_variables, variable_dict):
     logger = logging.getLogger('partition')
 
     #Copy the variables from the train graph to the inference graph

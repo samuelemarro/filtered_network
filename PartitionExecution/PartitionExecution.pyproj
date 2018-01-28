@@ -41,6 +41,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="PartitionExecution.py" />
+    <Compile Include="partition_execution\models\networks.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="partition_execution\partition_layer.py">
       <SubType>Code</SubType>
     </Compile>

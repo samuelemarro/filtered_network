@@ -2,11 +2,18 @@ import tensorflow as tf
 import partition_execution.models.masks as masks
 
 class PartitionHelper:
-    def __init__(self, output_batch_size, output_size, dtype=tf.float32):
+    def __init__(self, use_cutoff, training, output_batch_size, output_size, expected_output, train_maker, dtype=tf.float32):
+        self.use_cutoff = use_cutoff
+        self.training = training
+
         self.gathered_output = tf.zeros([0, output_size], dtype=dtype)
         self.tracking_indices = tf.range(output_batch_size, dtype=tf.int32)
         self.gathered_indices = tf.zeros([0], dtype=tf.int32)
         self.train_variables = []
+        self.train_ops = []
+
+        self.expected_output = expected_output
+        self.train_maker = train_maker
 
     def apply_filter(self, hidden_tensor, output_tensor, mask):
         filtered_output = tf.boolean_mask(output_tensor, mask)
@@ -26,12 +33,14 @@ class PartitionHelper:
         self.gathered_indices = tf.concat([self.gathered_indices, self.tracking_indices], axis=0)
         self.tracking_indices = []
 
-
-    def add_trainable_variables(self):
+    def current_scope(self):
         variable_scope = tf.get_variable_scope().name
         if variable_scope:
             variable_scope += '/'
-        variables = tf.trainable_variables(variable_scope) #Invece di global_variables?
+        return variable_scope
+
+    def add_trainable_variables(self, scope=None):
+        variables = tf.trainable_variables(scope) #Invece di global_variables?
 
         for variable_collection in self.train_variables:
             variables = [x for x in variables if x not in variable_collection]
@@ -52,6 +61,27 @@ class PartitionHelper:
 
         #Gather according to the indices
         return tf.gather(params, indices)
+
+    def use_output(self, last):
+        return self.use_cutoff or last
+
+    def add_checkpoint(self, input, output, last, mask=None, train_maker=None):
+        if self.use_cutoff:
+            self.add_trainable_variables()
+            if last:
+                self.add_last_output(output)
+
+            if self.training:
+                self.train_ops.append(self.train_maker(output, self.expected_output, self.train_variables[-1]))
+            elif not last:
+                input = self.apply_filter(input, output, mask)
+        elif last and self.training:
+            all_variables = tf.trainable_variables()
+
+            self.train_ops.append(self.train_maker(output, self.expected_output, all_variables))
+            self.train_variables.append(all_variables)
+
+        return input
 
     def reordered_output(self):
         return self.fake_scatter_nd(self.gathered_output, self.gathered_indices)

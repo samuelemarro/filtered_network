@@ -14,6 +14,7 @@ import tensorflow as tf
 import partition_execution.core as core
 import partition_execution.testing as testing
 
+import partition_execution.models.networks as networks
 import partition_execution.models.data as data
 import partition_execution.models.masks as masks
 from partition_execution.partition_layer import PartitionHelper
@@ -71,95 +72,6 @@ def print_stats(collective_train_accuracies, collective_inference_accuracies, co
         print('\t\tAbsolute Accuracy Difference: {:+2.2f}%'.format((average_inference_accuracy - train_accuracies_averages[i]) * 100.0))
 
 
-def softmax(x):
-    e_x = np.exp(x - np.max(x))
-    return e_x / e_x.sum(axis=0)
-
-def compute_matches(outputs, labels, top_k=1):
-    matches = []
-    for output, label in zip(outputs, labels):
-        indices = np.argpartition(output, -top_k)[-top_k:]
-        matches.append(np.argmax(label) in indices)
-    return np.array(matches)
-
-def unpack(x):
-    y = []
-    for slice in x:
-        for subslice in slice:
-            y.append(subslice)
-    return y
-
-#Local Response Normalization refuses to accept an empty input, so we
-#add an additional batch element and then remove it
-def wrapped_local_response_normalization(input, use_cutoff):
-    if use_cutoff:
-        initial_shape = tf.shape(input)
-        input = tf.concat([input, tf.zeros([1, initial_shape[1], initial_shape[2], initial_shape[3]])], axis=0)
-
-    input = local_response_normalization(input)
-
-    if use_cutoff:
-        input = input[0:tf.maximum(initial_shape[0], 0)]
-
-    return input
-
-def foo(input, expected_output, use_cutoff, training):
-    def train_op(output, labels, optimizer, variables):
-        with tf.variable_scope('cross_entropy'):
-            diff = tf.nn.softmax_cross_entropy_with_logits(labels=labels, logits=output)
-            with tf.variable_scope('total'):
-                cross_entropy = tf.reduce_mean(diff)
-        #tf.summary.scalar('cross_entropy', cross_entropy)
-        with tf.variable_scope('train'):
-            train = optimizer.minimize(cross_entropy, var_list=variables)
-        return train
-    def accuracy_op(output, labels):
-        with tf.variable_scope('accuracy'):
-            with tf.variable_scope('correct_prediction'):
-                correct_prediction = tf.equal(tf.argmax(output, 1), tf.argmax(labels, 1))
-            accuracy = tf.reduce_mean(tf.cast(correct_prediction, tf.float32))
-        return accuracy
-
-    optimizer = tf.train.AdamOptimizer()
-
-    train_ops = []
-    
-    def standard_filtering(input, output, cutoff):
-        helper.add_trainable_variables()
-        if use_cutoff:
-            if training:
-                train_ops.append(train_op(output, expected_output, optimizer, helper.train_variables[-1]))
-            else:
-                mask = masks.cutoff_mask(output, cutoff)
-                input = helper.apply_filter(input, output, mask)
-        return input
-
-    helper = PartitionHelper(tf.shape(input)[0], expected_output.get_shape().as_list()[1], dtype=input.dtype)
-
-    input = tf.layers.dense(input, 200, activation=tf.nn.relu)
-    input = tf.layers.dense(input, 200, activation=tf.nn.relu)
-
-    output_1 = tf.layers.dense(input, 10, activation=tf.identity)
-
-    input = standard_filtering(input, output_1, 0.5)
-
-    input = tf.layers.dense(input, 200, activation=tf.nn.relu)
-    input = tf.layers.dense(input, 200, activation=tf.nn.relu)
-    output_2 = tf.layers.dense(input, 10, activation=tf.identity)
-
-    helper.add_trainable_variables()
-
-    if use_cutoff:
-        helper.add_last_output(output_2)
-    if training:
-        if use_cutoff:
-            train_ops.append(train_op(output_2, expected_output, optimizer, helper.train_variables[-1]))
-        else:
-            train_ops.append(train_op(output_2, expected_output, optimizer, tf.trainable_variables()))
-    helper.add_trainable_variables()
-
-    final_output = helper.reordered_output() if use_cutoff else output_2
-    return final_output, accuracy_op(final_output, expected_output), train_ops, unpack(helper.train_variables), {}
 
 #TODO:
 ##Devo per forza eliminare la cartella?
@@ -169,7 +81,6 @@ def foo(input, expected_output, use_cutoff, training):
 ##Forse posso rimuovere dei as_default()
 ##use_cutoff -> qualcosa
 ##Controllare i modelli e i parametri
-##Rimuovere l'accuracy per il training?
 #Promemoria:
 #Se vuoi debuggare il filtering/gathering, attiva il train solo
 #per la prima partition e imposta manualmente la mask
@@ -288,6 +199,7 @@ def main(_):
             x = input.get_shape()[1] // 2 - shape[0] // 2
             y = input.get_shape()[2] // 2 - shape[1] // 2
             return input[0:, x : x + shape[0], y : y + shape[1],0:]
+
         with tf.variable_scope('light_convolution'):
             input = tf.reshape(input, [-1, 32, 32, 3])
 
@@ -370,30 +282,30 @@ def main(_):
 
         return input, expected_output
 
-    base_custom_layers = {0 : standard_convolution}
-    base_output_positions = [0]
+    base_output_positions = [7]
 
-    optimised_custom_layers = {5 : filtered_convolution}
-    optimised_output_positions = [4, 5]
+    optimised_output_positions = [3, 7]
 
     a = tf.profiler.ProfileOptionBuilder().time_and_memory()
 
     for i in range(executions):
-        #base_accuracy, base_time = run_base(False, file_data, batch_size, base_custom_layers, base_output_positions, preprocessing=preprocessing, keep_prob_value=0.9, train_epochs=train_count)
-        base_accuracy, base_time = complete(False, file_data, batch_size, foo, train_op_epochs=train_count)
+        base_network = networks.FeedForwardNetwork(hidden_units, base_output_positions, tf.train.AdamOptimizer())
+
+        base_accuracy, base_time = complete(False, file_data, batch_size, base_network.make_network, train_op_epochs=train_count)
 
         base_accuracies.append(base_accuracy)
         base_times.append(base_time)
 
-        #optimised_accuracy, optimised_time = run_base(True, file_data, batch_size, optimised_custom_layers, optimised_output_positions, preprocessing=preprocessing, mask_maker=masks.relative_mask, mask_parameters=cutoff_rates, keep_prob_value=0.9, train_epochs=train_count)
-        optimised_accuracy, optimised_time = complete(True, file_data, batch_size, foo, train_op_epochs=train_count)
+        optimised_network = networks.FeedForwardNetwork(hidden_units, optimised_output_positions, tf.train.AdamOptimizer(), mask_maker=masks.cutoff_mask, mask_parameters=cutoff_rates)
+
+        optimised_accuracy, optimised_time = complete(True, file_data, batch_size, optimised_network.make_network, train_op_epochs=train_count)
 
         optimised_accuracies.append(optimised_accuracy)
         optimised_times.append(optimised_time)
 
         
-    logger.info('Mandatory sleeping to allow the GPU to cool off')
-    time.sleep(60)
+    #logger.info('Mandatory sleeping to allow the GPU to cool off')
+    #time.sleep(60)
     
     final_base_accuracy = np.mean(base_accuracies)
     final_base_time = np.mean(base_times)
@@ -461,7 +373,7 @@ def complete(use_cutoff, data, batch_size, network_maker, train_op_epochs=500):
             train_input.set_shape([batch_size, data.input_shape[1]])
             train_expected_output.set_shape([batch_size, data.output_shape[1]])
 
-            _, train_accuracy, train_ops, train_variables, train_dict = network_maker(train_input, train_expected_output, use_cutoff, True)
+            _, _, train_ops, train_variables, train_dict = network_maker(train_input, train_expected_output, use_cutoff, True)
 
     logger.info('{} Train Operations'.format(len(train_ops)))
     logger.info('===============')
@@ -492,35 +404,40 @@ def complete(use_cutoff, data, batch_size, network_maker, train_op_epochs=500):
     variable_dict = core.compute_variable_dict(train_session, train_variables)
 
     logger.info('Beginning inference')
-    core.prepare_inference_network(inference_session, inference_variables, variable_dict)
 
-    logger.info('Preheating...')
+    logger.info('Transferring variables from Train Network to Inference Network')
+    core.transfer_variables(inference_session, inference_variables, variable_dict)
+
+    logger.info('Preheating')
     testing.preheat_network(inference_session, inference_output, inference_dict, test_count)
-    base_outputs, execution_time = testing.test_network(inference_session, inference_output, inference_dict, test_count)
 
-    base_outputs = np.array(unpack(base_outputs))
+    logger.info('Measuring Accuracy')
+    accuracies, _ = testing.test_network(inference_session, inference_accuracy, inference_dict, test_count)
 
-    test_labels = np.asarray(data.test_labels)[0:inference_data_size, :]
+    logger.info('Measuring Execution Time')
+    _, execution_time = testing.test_network(inference_session, inference_output, inference_dict, test_count)
 
-    logger.info(base_outputs)
-    logger.info(test_labels)
-
-    top1_matches = compute_matches(base_outputs, test_labels, top_k=1)
-    top5_matches = compute_matches(base_outputs, test_labels, top_k=5)
-
-    top1_accuracy = np.mean(top1_matches.astype(float))
-    top5_accuracy = np.mean(top5_matches.astype(float))
+    accuracy = np.mean(accuracies)
 
     name = 'Optimised' if use_cutoff else 'Base'
 
+    logger.info('{} Accuracy: {:2.2f}%'.format(name, accuracy * 100.0))
+    logger.info('{} Time: {} seconds'.format(name, execution_time))
 
-    print('{} Top 1 Accuracy: {:2.2f}%'.format(name, top1_accuracy * 100.0))
-    print('{} Top 5 Accuracy: {:2.2f}%'.format(name, top5_accuracy * 100.0))
-    print('{} Time: {} seconds'.format(name, execution_time))
-
-    return top1_accuracy, execution_time
+    return accuracy, execution_time
 
 def confidency_graph(output, expected_output, buckets=10):
+    def softmax(x):
+        e_x = np.exp(x - np.max(x))
+        return e_x / e_x.sum(axis=0)
+
+    def compute_matches(outputs, labels, top_k=1):
+        matches = []
+        for output, label in zip(outputs, labels):
+            indices = np.argpartition(output, -top_k)[-top_k:]
+            matches.append(np.argmax(label) in indices)
+        return np.array(matches)
+
     top1_matches = compute_matches(output, expected_output, top_k=1)
     top5_matches = compute_matches(output, expected_output, top_k=5)
 
